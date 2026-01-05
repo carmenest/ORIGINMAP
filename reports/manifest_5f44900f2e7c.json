@@ -1,0 +1,107 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "5f44900f2e7c",
+  "timestamp_utc": "2026-01-04T20:54:32.291354",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "hypothesis_test": {
+      "csv": "/home/carmenia/originmap/reports/hypothesis_O-\u03943_results.csv",
+      "summary": "/home/carmenia/originmap/reports/hypothesis_O-\u03943_summary.json",
+      "plot": "/home/carmenia/originmap/reports/hypothesis_O-\u03943_plot.png",
+      "discoveries": {
+        "fdr_005": 5,
+        "fdr_010": 5
+      },
+      "survivors": [
+        {
+          "recclass": "L6",
+          "count": 8279,
+          "cv_obs": 9.658689718314244,
+          "cv_null_mean": 39.41801218019233,
+          "cv_zscore": -3.210503148782055,
+          "cv_fdr_q": 0.0
+        },
+        {
+          "recclass": "H6",
+          "count": 4527,
+          "cv_obs": 9.87308096605727,
+          "cv_null_mean": 33.78122004844855,
+          "cv_zscore": -1.8564005489737518,
+          "cv_fdr_q": 0.0
+        },
+        {
+          "recclass": "Ureilite",
+          "count": 300,
+          "cv_obs": 3.008258979858941,
+          "cv_null_mean": 9.42107720803602,
+          "cv_zscore": -1.7111045916084389,
+          "cv_fdr_q": 0.0
+        }
+      ],
+      "fallen": [
+        {
+          "recclass": "H4",
+          "count": 4211,
+          "cv_obs": 9.880252803845785,
+          "cv_null_mean": 32.201196369139566,
+          "cv_zscore": -1.9096846594117731,
+          "cv_fdr_q": 0.176
+        },
+        {
+          "recclass": "Eucrite-pmict",
+          "count": 207,
+          "cv_obs": 2.6215435595471335,
+          "cv_null_mean": 7.894515316278497,
+          "cv_zscore": -1.6987249175969645,
+          "cv_fdr_q": 0.176
+        },
+        {
+          "recclass": "Eucrite",
+          "count": 221,
+          "cv_obs": 2.878935789292414,
+          "cv_null_mean": 7.877820039527418,
+          "cv_zscore": -1.5628663076033107,
+          "cv_fdr_q": 0.24000000000000002
+        },
+        {
+          "recclass": "LL7",
+          "count": 22,
+          "cv_obs": 1.1838922321025973,
+          "cv_null_mean": 1.2158411281654153,
+          "cv_zscore": -0.4203993350307414,
+          "cv_fdr_q": 0.8743949044585987
+        },
+        {
+          "recclass": "Lunar (anorth)",
+          "count": 69,
+          "cv_obs": 1.6904284599391384,
+          "cv_null_mean": 3.56347231982751,
+          "cv_zscore": -0.9337190822971693,
+          "cv_fdr_q": 0.7776744186046511
+        },
+        {
+          "recclass": "R4",
+          "count": 42,
+          "cv_obs": 1.4334022899551786,
+          "cv_null_mean": 3.542569952346804,
+          "cv_zscore": -1.3787176511904617,
+          "cv_fdr_q": 0.44
+        },
+        {
+          "recclass": "H/L6",
+          "count": 11,
+          "cv_obs": 0.8262886865564208,
+          "cv_null_mean": 0.8252985435237625,
+          "cv_zscore": 0.011925394564663934,
+          "cv_fdr_q": 0.98
+        }
+      ]
+    }
+  },
+  "parameters": {
+    "experiment": "O-D3",
+    "n_permutations": 500,
+    "seed": 42
+  }
+}

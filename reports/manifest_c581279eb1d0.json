@@ -1,0 +1,35 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "c581279eb1d0",
+  "timestamp_utc": "2026-01-04T20:11:44.843504",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "metrics_outputs": {
+      "summary": "/home/carmenia/originmap/reports/metrics_summary.json",
+      "details": {
+        "global": {
+          "n_samples": 45716,
+          "n_classes": 466
+        },
+        "mass": {
+          "mean": 13278.078548601514,
+          "median": 32.6,
+          "std": 574988.876410473,
+          "p05": 1.1,
+          "p25": 7.2,
+          "p75": 202.6,
+          "p95": 4000.0
+        },
+        "temporal": {
+          "min_year": 1970,
+          "max_year": 1970
+        },
+        "diversity_table": "/home/carmenia/originmap/reports/diversity_by_class.csv"
+      }
+    }
+  },
+  "parameters": {
+    "step": "metrics"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "95f01c8a4245",
+  "timestamp_utc": "2026-01-04T20:47:52.355921",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "hypothesis_test": {
+      "csv": "/home/carmenia/originmap/reports/hypothesis_O-\u03942_results.csv",
+      "summary": "/home/carmenia/originmap/reports/hypothesis_O-\u03942_summary.json",
+      "plot": "/home/carmenia/originmap/reports/hypothesis_O-\u03942_plot.png",
+      "discoveries": {
+        "cv_fdr_005": 7,
+        "cv_fdr_010": 10,
+        "log_range_fdr_005": 19,
+        "log_range_fdr_010": 21
+      },
+      "tight_classes": [
+        {
+          "recclass": "E-an",
+          "count": 5,
+          "cv_obs": 0.40642321725112507,
+          "cv_null_mean": 1.4401645887367776,
+          "cv_zscore": -2.490110590397255,
+          "cv_fdr_q": 0.0
+        },
+        {
+          "recclass": "Eucrite",
+          "count": 221,
+          "cv_obs": 2.878935789292414,
+          "cv_null_mean": 8.559338757853943,
+          "cv_zscore": -1.8415928662573007,
+          "cv_fdr_q": 0.0
+        },
+        {
+          "recclass": "Eucrite-pmict",
+          "count": 207,
+          "cv_obs": 2.6215435595471335,
+          "cv_null_mean": 8.005963635015725,
+          "cv_zscore": -1.8906231571332672,
+          "cv_fdr_q": 0.0
+        },
+        {
+          "recclass": "H5/6",
+          "count": 193,
+          "cv_obs": 3.155360618674839,
+          "cv_null_mean": 7.840896792754158,
+          "cv_zscore": -1.6542222144028904,
+          "cv_fdr_q": 0.0
+        },
+        {
+          "recclass": "L6",
+          "count": 8279,
+          "cv_obs": 9.658689718314244,
+          "cv_null_mean": 38.37368440626128,
+          "cv_zscore": -3.433460659511769,
+          "cv_fdr_q": 0.0
+        }
+      ],
+      "dispersed_classes": []
+    }
+  },
+  "parameters": {
+    "experiment": "O-D2",
+    "n_permutations": 500,
+    "seed": 42
+  }
+}

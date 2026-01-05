@@ -1,0 +1,18 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "37d27e9422c3",
+  "timestamp_utc": "2026-01-04T20:14:53.340011",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "visualizations": [
+      "/home/carmenia/originmap/reports/mass_distribution.png",
+      "/home/carmenia/originmap/reports/temporal_distribution.png",
+      "/home/carmenia/originmap/reports/diversity_shannon.png",
+      "/home/carmenia/originmap/reports/diversity_simpson.png"
+    ]
+  },
+  "parameters": {
+    "step": "visualize"
+  }
+}

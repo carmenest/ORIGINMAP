@@ -1,0 +1,4 @@
+hypothesis,description,status,verdict,p_value
+H-FALL-1,Genuine mass structure in Falls,completed,NO_STRUCTURE,0.145
+H-FALL-2,Class proportions differ Falls vs Finds,completed,STRONG_DIFFERENCE,0.0
+H-FALL-3,Seasonality in Falls,no_month_data,N/A,

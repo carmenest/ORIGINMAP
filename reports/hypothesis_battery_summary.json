@@ -1,0 +1,40 @@
+{
+  "experiment": "Full Null Model Battery",
+  "hypothesis": "H-CONS: Constrained Formation",
+  "timestamp_utc": "2026-01-04T21:14:28.492878",
+  "parameters": {
+    "n_permutations": 500,
+    "seed": 999,
+    "n_mass_bins": 10,
+    "time_bins": [
+      "pre-1970",
+      "1970-1990",
+      "post-1990"
+    ]
+  },
+  "null_models": {
+    "null2": "mass bins only",
+    "null3": "mass \u00d7 time",
+    "null4": "mass \u00d7 fall/found"
+  },
+  "results": {
+    "significant_null2": 10,
+    "significant_null3": 3,
+    "significant_null4": 2,
+    "survive_all_3": 1,
+    "survive_2_of_3": 2
+  },
+  "robust_candidates": [
+    {
+      "recclass": "L6",
+      "count": 8279,
+      "cv_obs": 9.658689718314244,
+      "z_null2": -3.1549634048842377,
+      "z_null3": -2.924570709830166,
+      "z_null4": -2.9915392391412747,
+      "q_null2": 0.0,
+      "q_null3": 0.0,
+      "q_null4": 0.0
+    }
+  ]
+}

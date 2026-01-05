@@ -1,0 +1,22 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "b101a863de7e",
+  "timestamp_utc": "2026-01-04T23:33:06.064688",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "stability_clustering": {
+      "regimes_csv": "/home/carmenia/originmap/reports/O-D7_stability_regimes.csv",
+      "json": "/home/carmenia/originmap/reports/O-D7_clustering_summary.json",
+      "dendrogram": "/home/carmenia/originmap/reports/O-D7_stability_dendrogram.png",
+      "heatmap": "/home/carmenia/originmap/reports/O-D7_survival_heatmap.png",
+      "observation": "/home/carmenia/originmap/notes/observations/observation_O-D7_20260105.md"
+    }
+  },
+  "parameters": {
+    "experiment": "O-D7",
+    "n_clusters": 5,
+    "method": "ward",
+    "mode": "binary"
+  }
+}

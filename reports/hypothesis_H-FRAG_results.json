@@ -1,0 +1,272 @@
+{
+  "hypothesis": "H-FRAG",
+  "statement": "Grade 6 metamorphism \u2192 uniform mechanics \u2192 predictable fragmentation",
+  "timestamp_utc": "2026-01-04T21:31:05.559497",
+  "predictions": {
+    "P1_grade6_lt_grade5": {
+      "prediction": "Grade 6 < Grade 5 for L, H, LL",
+      "tests": [
+        {
+          "type": "L",
+          "n5": 4794,
+          "n6": 8279,
+          "cv5": 18.431195267270375,
+          "cv6": 9.658689718314244,
+          "cv5_ci": [
+            9.109570913336192,
+            21.5580245607737
+          ],
+          "cv6_ci": [
+            7.668206873396785,
+            10.968165001903655
+          ],
+          "passes": true,
+          "significant": true
+        },
+        {
+          "type": "H",
+          "n5": 7138,
+          "n6": 4527,
+          "cv5": 23.620075594912194,
+          "cv6": 9.87308096605727,
+          "cv5_ci": [
+            8.845337713960975,
+            28.19706428663303
+          ],
+          "cv6_ci": [
+            7.531580529472367,
+            11.377717330244325
+          ],
+          "passes": true,
+          "significant": true
+        },
+        {
+          "type": "LL",
+          "n5": 2766,
+          "n6": 2043,
+          "cv5": 18.83029040844298,
+          "cv6": 10.805522628453842,
+          "cv5_ci": [
+            9.43508171726169,
+            22.915553760006336
+          ],
+          "cv6_ci": [
+            5.580768380500955,
+            13.058079721629626
+          ],
+          "passes": true,
+          "significant": true
+        }
+      ],
+      "verdict": "SUPPORTED"
+    },
+    "P2_monotonic_trend": {
+      "prediction": "Monotonic CV decrease with grade",
+      "tests": [
+        {
+          "type": "L",
+          "grades": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "cvs": [
+            14.099603720003241,
+            7.5967716774083405,
+            18.431195267270375,
+            9.658689718314244
+          ],
+          "ns": [
+            365,
+            1253,
+            4794,
+            8279
+          ],
+          "spearman_r": 0.0,
+          "spearman_p": 1.0,
+          "monotonic_decrease": false
+        },
+        {
+          "type": "H",
+          "grades": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "cvs": [
+            9.197091951938791,
+            9.880252803845785,
+            23.620075594912194,
+            9.87308096605727
+          ],
+          "ns": [
+            386,
+            4211,
+            7138,
+            4527
+          ],
+          "spearman_r": 0.39999999999999997,
+          "spearman_p": 0.6,
+          "monotonic_decrease": false
+        },
+        {
+          "type": "LL",
+          "grades": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "cvs": [
+            2.799596291500932,
+            6.43288150058146,
+            18.83029040844298,
+            10.805522628453842
+          ],
+          "ns": [
+            128,
+            268,
+            2766,
+            2043
+          ],
+          "spearman_r": 0.7999999999999999,
+          "spearman_p": 0.20000000000000007,
+          "monotonic_decrease": false
+        }
+      ],
+      "verdict": "FALSIFIED"
+    },
+    "P3_falls_and_finds": {
+      "prediction": "Grade 6 < Grade 5 in both Falls and Finds",
+      "tests": [
+        {
+          "discovery": "Fell",
+          "type": "L",
+          "n5": 76,
+          "n6": 257,
+          "cv5": 2.173980878406082,
+          "cv6": 2.6481252360990344,
+          "passes": false
+        },
+        {
+          "discovery": "Fell",
+          "type": "H",
+          "n5": 160,
+          "n6": 91,
+          "cv5": 6.948899184001141,
+          "cv6": 2.1083471107063905,
+          "passes": true
+        },
+        {
+          "discovery": "Found",
+          "type": "L",
+          "n5": 4718,
+          "n6": 8022,
+          "cv5": 20.9453953900229,
+          "cv6": 11.93350321482926,
+          "passes": true
+        },
+        {
+          "discovery": "Found",
+          "type": "H",
+          "n5": 6978,
+          "n6": 4436,
+          "cv5": 11.845024246452555,
+          "cv6": 12.112406092602498,
+          "passes": false
+        }
+      ],
+      "fell_passes": false,
+      "found_passes": false,
+      "verdict": "FALSIFIED"
+    },
+    "P4_achondrites_different": {
+      "prediction": "Achondrites don't follow chondrite grade pattern",
+      "groups": [
+        {
+          "name": "HED (Vesta)",
+          "classes": [
+            {
+              "class": "Eucrite",
+              "n": 221,
+              "cv": 2.878935789292414
+            },
+            {
+              "class": "Diogenite",
+              "n": 241,
+              "cv": 4.211385633804179
+            },
+            {
+              "class": "Howardite",
+              "n": 240,
+              "cv": 4.588835625963014
+            }
+          ]
+        },
+        {
+          "name": "Primitive",
+          "classes": [
+            {
+              "class": "Ureilite",
+              "n": 300,
+              "cv": 3.008258979858941
+            },
+            {
+              "class": "Acapulcoite",
+              "n": 54,
+              "cv": 2.5845061884384237
+            },
+            {
+              "class": "Lodranite",
+              "n": 40,
+              "cv": 1.7375574181041369
+            }
+          ]
+        },
+        {
+          "name": "Other",
+          "classes": [
+            {
+              "class": "Aubrite",
+              "n": 63,
+              "cv": 5.912658165292639
+            },
+            {
+              "class": "Angrite",
+              "n": 21,
+              "cv": 2.5071211042053845
+            }
+          ]
+        }
+      ],
+      "chondrite_mean_cv": 10.11243110427512,
+      "achondrite_mean_cv": 3.4286573631198913,
+      "verdict": "DESCRIPTIVE"
+    },
+    "P5_permutation_test": {
+      "prediction": "Effect survives permutation",
+      "tests": [
+        {
+          "type": "L",
+          "observed_diff": -8.772505548956131,
+          "null_mean": 0.7029466322887252,
+          "null_std": 5.128730479976448,
+          "p_value": 0.008,
+          "significant": true
+        },
+        {
+          "type": "H",
+          "observed_diff": -13.746994628854925,
+          "null_mean": -2.7063334548864773,
+          "null_std": 15.48975709886356,
+          "p_value": 0.462,
+          "significant": false
+        }
+      ],
+      "verdict": "FALSIFIED"
+    }
+  },
+  "overall_verdict": "WEAKLY SUPPORTED / NEEDS REVISION"
+}

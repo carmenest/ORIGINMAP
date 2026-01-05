@@ -1,0 +1,274 @@
+{
+  "observation_id": "20260104_203452",
+  "timestamp_utc": "2026-01-04T20:34:52.255434",
+  "run_id": "ff1b9b53ddeb",
+  "dataset_fingerprint": "adfb5129a147a09c",
+  "dataset_shape": {
+    "rows": 45716,
+    "columns": 9
+  },
+  "anomaly_count": 6,
+  "anomalies": [
+    {
+      "description": "Extreme mean/median ratio",
+      "value": 407.30302296323663,
+      "expected": "< 10 for normal distributions",
+      "significance": "high",
+      "detector": "heavy_tails"
+    },
+    {
+      "description": "Extreme kurtosis (leptokurtic)",
+      "value": 6796.170607910883,
+      "expected": "~3 for normal, < 50 typical",
+      "significance": "high",
+      "detector": "heavy_tails"
+    },
+    {
+      "description": "High singleton class ratio",
+      "value": "31.12%",
+      "expected": "< 20%",
+      "significance": "medium",
+      "classes": [
+        "C1-ung",
+        "C1/2-ung",
+        "C2",
+        "C3.0-ung",
+        "C3/4-ung",
+        "C4/5",
+        "C5/6-ung",
+        "CH/CBb",
+        "CH3 ",
+        "CK3.8"
+      ],
+      "detector": "diversity_scaling"
+    },
+    {
+      "description": "Singleton classes with extreme mass",
+      "value": 3,
+      "classes": [
+        "CR-an",
+        "Iron, IIIE-an",
+        "Mesosiderite-A3/4"
+      ],
+      "significance": "low",
+      "detector": "diversity_scaling"
+    },
+    {
+      "description": "Classes concentrated in narrow time windows",
+      "value": 221,
+      "classes": [
+        "Acapulcoite",
+        "Acapulcoite/Lodranite",
+        "Achondrite-prim",
+        "Achondrite-ung",
+        "Angrite"
+      ],
+      "significance": "medium",
+      "detector": "temporal_asymmetries"
+    },
+    {
+      "description": "Extreme hemisphere bias in finds",
+      "value": "N/S ratio: 0.29",
+      "expected": "~1.0 for uniform distribution",
+      "significance": "low",
+      "note": "Probably reflects Antarctic collection programs",
+      "detector": "geographic_patterns"
+    }
+  ],
+  "detections": {
+    "heavy_tails": {
+      "type": "heavy_tails",
+      "anomalies": [
+        {
+          "description": "Extreme mean/median ratio",
+          "value": 407.30302296323663,
+          "expected": "< 10 for normal distributions",
+          "significance": "high",
+          "detector": "heavy_tails"
+        },
+        {
+          "description": "Extreme kurtosis (leptokurtic)",
+          "value": 6796.170607910883,
+          "expected": "~3 for normal, < 50 typical",
+          "significance": "high",
+          "detector": "heavy_tails"
+        }
+      ],
+      "statistics": {
+        "skewness": 76.90758652549682,
+        "kurtosis": 6796.170607910883,
+        "mean_median_ratio": 407.30302296323663,
+        "q99": 50600.0,
+        "q999": 1184232.0000001274,
+        "max": 60000000.0,
+        "median": 32.6
+      },
+      "class_asymmetry": {
+        "top_1pct_dominant": {
+          "Iron, IIIAB": 0.17943107221006566,
+          "H5": 0.09190371991247265,
+          "L6": 0.08533916849015317,
+          "Iron, IIAB": 0.05908096280087528,
+          "Iron, IAB-MG": 0.0525164113785558
+        },
+        "bottom_50pct_dominant": {
+          "L6": 0.17603965608001404,
+          "H5": 0.1711703807685559,
+          "H6": 0.12019652570626425,
+          "H4": 0.10769433233900684,
+          "L5": 0.1058957711879277
+        },
+        "overlap": [
+          "L6",
+          "H5"
+        ]
+      }
+    },
+    "diversity_scaling": {
+      "type": "diversity_scaling",
+      "anomalies": [
+        {
+          "description": "High singleton class ratio",
+          "value": "31.12%",
+          "expected": "< 20%",
+          "significance": "medium",
+          "classes": [
+            "C1-ung",
+            "C1/2-ung",
+            "C2",
+            "C3.0-ung",
+            "C3/4-ung",
+            "C4/5",
+            "C5/6-ung",
+            "CH/CBb",
+            "CH3 ",
+            "CK3.8"
+          ],
+          "detector": "diversity_scaling"
+        },
+        {
+          "description": "Singleton classes with extreme mass",
+          "value": 3,
+          "classes": [
+            "CR-an",
+            "Iron, IIIE-an",
+            "Mesosiderite-A3/4"
+          ],
+          "significance": "low",
+          "detector": "diversity_scaling"
+        }
+      ],
+      "size_distribution": {
+        "small_n<=10": 316,
+        "medium_10<n<=100": 117,
+        "large_n>100": 33,
+        "total_classes": 466
+      }
+    },
+    "temporal_asymmetries": {
+      "type": "temporal_asymmetries",
+      "anomalies": [
+        {
+          "description": "Classes concentrated in narrow time windows",
+          "value": 221,
+          "classes": [
+            "Acapulcoite",
+            "Acapulcoite/Lodranite",
+            "Achondrite-prim",
+            "Achondrite-ung",
+            "Angrite"
+          ],
+          "significance": "medium",
+          "detector": "temporal_asymmetries"
+        }
+      ],
+      "epoch_distribution": {
+        "pre_1900": 0,
+        "1900_1950": 0,
+        "1950_1970": 0,
+        "1970_1990": 45428,
+        "1990_2010": 0,
+        "post_2010": 0
+      },
+      "growth_rates": [
+        0.0
+      ],
+      "class_temporality": {
+        "first_appeared_post_1990": 0,
+        "first_appeared_pre_1950": 0,
+        "newest_classes": {}
+      }
+    },
+    "geographic_patterns": {
+      "type": "geographic_patterns",
+      "anomalies": [
+        {
+          "description": "Extreme hemisphere bias in finds",
+          "value": "N/S ratio: 0.29",
+          "expected": "~1.0 for uniform distribution",
+          "significance": "low",
+          "note": "Probably reflects Antarctic collection programs",
+          "detector": "geographic_patterns"
+        }
+      ],
+      "hemisphere_distribution": {
+        "northern": 8550,
+        "southern": 29851,
+        "ratio": 0.28642256540819405
+      },
+      "diversity_by_latitude": {
+        "(-90, -60]": 241,
+        "(-60, -30]": 106,
+        "(-30, 0]": 224,
+        "(0, 30]": 243,
+        "(30, 60]": 175,
+        "(60, 90]": 33
+      }
+    },
+    "rare_invariants": {
+      "type": "rare_invariants",
+      "anomalies": [],
+      "high_variance_classes": {
+        "count": 32,
+        "classes": {
+          "mean": {
+            "H5": 2166.091410198935,
+            "LL5": 464.6758839479393,
+            "L5": 1797.3517027534417,
+            "L3": 1534.44678630137,
+            "CV3": 8953.69018359375
+          },
+          "std": {
+            "H5": 51166.82709502198,
+            "LL5": 8751.563972699867,
+            "L5": 33130.79582149428,
+            "L3": 21664.78976563093,
+            "CV3": 125102.08445316798
+          },
+          "count": {
+            "H5": 7138,
+            "LL5": 2766,
+            "L5": 4794,
+            "L3": 365,
+            "CV3": 256
+          },
+          "cv": {
+            "H5": 23.621730299148727,
+            "LL5": 18.833695216428236,
+            "L5": 18.433117887133477,
+            "L3": 14.118958023856749,
+            "CV3": 13.972125669748788
+          }
+        }
+      }
+    }
+  },
+  "comparison": {
+    "is_first_run": true,
+    "previous_count": 0,
+    "changes": [],
+    "stable_anomalies": [],
+    "new_anomalies": [],
+    "resolved_anomalies": []
+  }
+}

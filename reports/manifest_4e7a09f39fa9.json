@@ -1,0 +1,22 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "4e7a09f39fa9",
+  "timestamp_utc": "2026-01-04T23:26:35.946280",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "grade_curve": {
+      "csv": "/home/carmenia/originmap/reports/O-D6_heterogeneity_by_grade.csv",
+      "json": "/home/carmenia/originmap/reports/O-D6_perm_pvalues.json",
+      "bootstrap": "/home/carmenia/originmap/reports/O-D6_bootstrap.csv",
+      "plot": "/home/carmenia/originmap/reports/O-D6_curve.png",
+      "observation": "/home/carmenia/originmap/notes/observations/observation_O-D6_20260105.md"
+    }
+  },
+  "parameters": {
+    "experiment": "O-D6",
+    "n_permutations": 1000,
+    "n_bootstrap": 500,
+    "seed": 42
+  }
+}

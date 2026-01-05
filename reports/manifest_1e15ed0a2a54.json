@@ -1,0 +1,26 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "1e15ed0a2a54",
+  "timestamp_utc": "2026-01-04T20:43:05.615934",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "hypothesis_test": {
+      "csv": "/home/carmenia/originmap/reports/hypothesis_O-\u03941_results.csv",
+      "summary": "/home/carmenia/originmap/reports/hypothesis_O-\u03941_summary.json",
+      "plot": "/home/carmenia/originmap/reports/hypothesis_O-\u03941_plot.png",
+      "discoveries": {
+        "shannon_fdr_005": 0,
+        "shannon_fdr_010": 0,
+        "simpson_fdr_005": 0,
+        "simpson_fdr_010": 0
+      },
+      "top_anomalous": []
+    }
+  },
+  "parameters": {
+    "experiment": "O-D1",
+    "n_permutations": 500,
+    "seed": 42
+  }
+}

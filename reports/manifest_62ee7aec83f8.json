@@ -1,0 +1,45 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "62ee7aec83f8",
+  "timestamp_utc": "2026-01-04T23:43:13.359274",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "sample_threshold": {
+      "csv": "/home/carmenia/originmap/reports/O-D8_threshold_summary.csv",
+      "json": "/home/carmenia/originmap/reports/O-D8_threshold_results.json",
+      "detail": "/home/carmenia/originmap/reports/O-D8_threshold_detail.csv",
+      "plot": "/home/carmenia/originmap/reports/O-D8_threshold_curves.png",
+      "heatmap": "/home/carmenia/originmap/reports/O-D8_significance_heatmap.png",
+      "observation": "/home/carmenia/originmap/notes/observations/observation_O-D8_20260105.md"
+    }
+  },
+  "parameters": {
+    "experiment": "O-D8",
+    "sample_sizes": [
+      30,
+      50,
+      75,
+      100,
+      150,
+      200,
+      300
+    ],
+    "target_classes": [
+      "L6",
+      "H6",
+      "H4",
+      "Ureilite",
+      "H5",
+      "L5",
+      "LL6"
+    ],
+    "stat_names": [
+      "cv",
+      "varlog"
+    ],
+    "n_permutations": 150,
+    "seed": 42,
+    "alpha": 0.05
+  }
+}

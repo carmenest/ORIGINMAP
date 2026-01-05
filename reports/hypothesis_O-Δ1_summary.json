@@ -1,0 +1,203 @@
+{
+  "experiment": "O-\u03941",
+  "hypothesis": "Diversity scales proportionally with sample size",
+  "null_model": "Names randomly assigned to classes, preserving class sizes",
+  "timestamp_utc": "2026-01-04T20:43:05.253873",
+  "parameters": {
+    "n_permutations": 500,
+    "seed": 42,
+    "n_classes": 466,
+    "total_samples": 45716
+  },
+  "discoveries": {
+    "shannon_fdr_005": 0,
+    "shannon_fdr_010": 0,
+    "simpson_fdr_005": 0,
+    "simpson_fdr_010": 0
+  },
+  "top_candidates_shannon": [
+    {
+      "recclass": "Acapulcoite",
+      "count": 54,
+      "shannon_obs": 3.988984046564274,
+      "shannon_null_mean": 3.9889840465642745,
+      "shannon_zscore": -1.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Acapulcoite/Lodranite",
+      "count": 6,
+      "shannon_obs": 1.791759469228055,
+      "shannon_null_mean": 1.7917594692280547,
+      "shannon_zscore": 1.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Acapulcoite/lodranite",
+      "count": 3,
+      "shannon_obs": 1.0986122886681096,
+      "shannon_null_mean": 1.0986122886681091,
+      "shannon_zscore": 1.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Achondrite-prim",
+      "count": 9,
+      "shannon_obs": 2.1972245773362196,
+      "shannon_null_mean": 2.197224577336219,
+      "shannon_zscore": 1.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Achondrite-ung",
+      "count": 57,
+      "shannon_obs": 4.043051267834549,
+      "shannon_null_mean": 4.043051267834549,
+      "shannon_zscore": 0.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Angrite",
+      "count": 21,
+      "shannon_obs": 3.044522437723423,
+      "shannon_null_mean": 3.044522437723423,
+      "shannon_zscore": 0.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Aubrite",
+      "count": 63,
+      "shannon_obs": 4.143134726391533,
+      "shannon_null_mean": 4.143134726391533,
+      "shannon_zscore": 0.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Aubrite-an",
+      "count": 6,
+      "shannon_obs": 1.791759469228055,
+      "shannon_null_mean": 1.7917594692280547,
+      "shannon_zscore": 1.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "Brachinite",
+      "count": 33,
+      "shannon_obs": 3.4965075614664802,
+      "shannon_null_mean": 3.4965075614664802,
+      "shannon_zscore": 0.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    },
+    {
+      "recclass": "C",
+      "count": 8,
+      "shannon_obs": 2.0794415416798357,
+      "shannon_null_mean": 2.0794415416798357,
+      "shannon_zscore": 0.0,
+      "shannon_pvalue": 1.0,
+      "shannon_fdr_q": 1.0
+    }
+  ],
+  "top_candidates_simpson": [
+    {
+      "recclass": "Acapulcoite",
+      "count": 54,
+      "simpson_obs": 0.9814814814814815,
+      "simpson_null_mean": 0.9814814814814813,
+      "simpson_zscore": 1.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Acapulcoite/Lodranite",
+      "count": 6,
+      "simpson_obs": 0.8333333333333334,
+      "simpson_null_mean": 0.8333333333333334,
+      "simpson_zscore": 0.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Acapulcoite/lodranite",
+      "count": 3,
+      "simpson_obs": 0.6666666666666667,
+      "simpson_null_mean": 0.6666666666666666,
+      "simpson_zscore": 1.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Achondrite-prim",
+      "count": 9,
+      "simpson_obs": 0.8888888888888888,
+      "simpson_null_mean": 0.8888888888888892,
+      "simpson_zscore": -1.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Achondrite-ung",
+      "count": 57,
+      "simpson_obs": 0.9824561403508771,
+      "simpson_null_mean": 0.9824561403508769,
+      "simpson_zscore": 1.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Angrite",
+      "count": 21,
+      "simpson_obs": 0.9523809523809524,
+      "simpson_null_mean": 0.9523809523809524,
+      "simpson_zscore": 0.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Aubrite",
+      "count": 63,
+      "simpson_obs": 0.9841269841269842,
+      "simpson_null_mean": 0.9841269841269842,
+      "simpson_zscore": 0.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Aubrite-an",
+      "count": 6,
+      "simpson_obs": 0.8333333333333334,
+      "simpson_null_mean": 0.8333333333333334,
+      "simpson_zscore": 0.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "Brachinite",
+      "count": 33,
+      "simpson_obs": 0.9696969696969697,
+      "simpson_null_mean": 0.9696969696969694,
+      "simpson_zscore": 1.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    },
+    {
+      "recclass": "C",
+      "count": 8,
+      "simpson_obs": 0.875,
+      "simpson_null_mean": 0.875,
+      "simpson_zscore": 0.0,
+      "simpson_pvalue": 1.0,
+      "simpson_fdr_q": 1.0
+    }
+  ],
+  "anomalous_high_diversity": []
+}

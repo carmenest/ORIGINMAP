@@ -1,0 +1,101 @@
+{
+  "experiment": "O-\u03942",
+  "hypothesis": "Mass heterogeneity matches random assignment",
+  "null_model": "Masses randomly assigned to classes, preserving class sizes",
+  "metric": "Coefficient of Variation (CV = std/mean)",
+  "timestamp_utc": "2026-01-04T20:49:03.819453",
+  "parameters": {
+    "n_permutations": 500,
+    "seed": 123,
+    "n_classes_tested": 220
+  },
+  "discoveries": {
+    "cv_fdr_005": 8,
+    "cv_fdr_010": 10,
+    "log_range_fdr_005": 18,
+    "log_range_fdr_010": 28
+  },
+  "unusually_tight_mass_classes": [
+    {
+      "recclass": "Eucrite",
+      "count": 221,
+      "cv_obs": 2.878935789292414,
+      "cv_null_mean": 8.274070581820167,
+      "cv_zscore": -1.7116667997754214,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "Eucrite-pmict",
+      "count": 207,
+      "cv_obs": 2.6215435595471335,
+      "cv_null_mean": 7.786864624200591,
+      "cv_zscore": -1.7532721747997246,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "H/L6",
+      "count": 11,
+      "cv_obs": 0.8262886865564208,
+      "cv_null_mean": 2.0819499775477883,
+      "cv_zscore": -1.9575309594015413,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "H4",
+      "count": 4211,
+      "cv_obs": 9.880252803845785,
+      "cv_null_mean": 31.706776973313044,
+      "cv_zscore": -2.180319514611492,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "L6",
+      "count": 8279,
+      "cv_obs": 9.658689718314244,
+      "cv_null_mean": 37.33105096253131,
+      "cv_zscore": -3.2080973150678225,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "Lunar (anorth)",
+      "count": 69,
+      "cv_obs": 1.6904284599391384,
+      "cv_null_mean": 4.972757575257983,
+      "cv_zscore": -1.996372788803313,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "Ureilite",
+      "count": 300,
+      "cv_obs": 3.008258979858941,
+      "cv_null_mean": 9.67850967736007,
+      "cv_zscore": -1.755422053705857,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "R4",
+      "count": 42,
+      "cv_obs": 1.4334022899551786,
+      "cv_null_mean": 4.035367583182292,
+      "cv_zscore": -2.007477835730578,
+      "cv_fdr_q": 0.0
+    },
+    {
+      "recclass": "LL7",
+      "count": 22,
+      "cv_obs": 1.1838922321025973,
+      "cv_null_mean": 2.9551422660047173,
+      "cv_zscore": -1.9397238038784674,
+      "cv_fdr_q": 0.088
+    },
+    {
+      "recclass": "H6",
+      "count": 4527,
+      "cv_obs": 9.87308096605727,
+      "cv_null_mean": 32.28995192759873,
+      "cv_zscore": -2.1717652614252896,
+      "cv_fdr_q": 0.088
+    }
+  ],
+  "unusually_dispersed_mass_classes": []
+}

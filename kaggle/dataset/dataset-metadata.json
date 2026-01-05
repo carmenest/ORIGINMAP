@@ -1,0 +1,26 @@
+{
+  "title": "Meteorites Catalog with Observation Metadata",
+  "id": "caresment/meteorites-catalog-with-observation-metadata",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "earth science",
+    "astronomy",
+    "data cleaning",
+    "classification",
+    "feature engineering"
+  ],
+  "resources": [
+    {
+      "path": "meteorites_curated.csv",
+      "description": "Curated NASA meteorite catalog with observation bias features"
+    },
+    {
+      "path": "README.md",
+      "description": "Dataset documentation"
+    }
+  ]
+}

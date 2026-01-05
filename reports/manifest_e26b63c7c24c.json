@@ -1,0 +1,13 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "e26b63c7c24c",
+  "timestamp_utc": "2026-01-04T20:18:38.809000",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "report": "/home/carmenia/originmap/reports/report_ff1b9b53ddeb.html"
+  },
+  "parameters": {
+    "step": "report"
+  }
+}

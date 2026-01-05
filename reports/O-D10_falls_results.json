@@ -1,0 +1,473 @@
+{
+  "timestamp_utc": "2026-01-05T00:12:28.061580+00:00",
+  "dataset": {
+    "total": 45716,
+    "falls": 1107,
+    "finds": 44609,
+    "falls_pct": 2.4214716948114448
+  },
+  "falls_profile": {
+    "n_total": 1107,
+    "n_with_mass": 1075,
+    "n_classes": 126,
+    "mass_median": 2800.0,
+    "mass_log_mean": 7.823049719397525,
+    "mass_log_std": 2.314643086728562,
+    "year_range": [
+      860,
+      2013
+    ],
+    "top_classes": [
+      [
+        "L6",
+        262
+      ],
+      [
+        "H5",
+        163
+      ],
+      [
+        "H6",
+        91
+      ],
+      [
+        "L5",
+        76
+      ],
+      [
+        "H4",
+        50
+      ],
+      [
+        "LL6",
+        42
+      ],
+      [
+        "Stone-uncl",
+        40
+      ],
+      [
+        "OC",
+        24
+      ],
+      [
+        "L4",
+        20
+      ],
+      [
+        "LL5",
+        19
+      ]
+    ]
+  },
+  "mass_comparison": {
+    "test": "mass_comparison",
+    "status": "completed",
+    "stats": {
+      "falls": {
+        "n": 1075,
+        "median": 2800.0,
+        "mean": 47070.715023255805,
+        "log_mean": 7.823049719397525,
+        "log_std": 2.314643086728562,
+        "percentile_25": 686.0,
+        "percentile_75": 10450.0
+      },
+      "finds": {
+        "n": 44491,
+        "median": 30.54,
+        "mean": 12467.24488071745,
+        "log_mean": 3.666801540720731,
+        "log_std": 2.4404645628823483,
+        "percentile_25": 6.97,
+        "percentile_75": 178.35000000000002
+      }
+    },
+    "ks_stat": 0.6622699652346725,
+    "ks_p": 0.0,
+    "mannwhitney_stat": 42724401.5,
+    "mannwhitney_p": 0.0,
+    "median_ratio_falls_over_finds": 91.683038637852,
+    "verdict": "VERY_DIFFERENT",
+    "interpretation": "Falls and Finds have very different mass distributions (Falls median 91.7x Finds)"
+  },
+  "h_fall_1": {
+    "test": "h_fall_1",
+    "status": "completed",
+    "n_classes": 8,
+    "subsample_size": 20,
+    "n_permutations": 1000,
+    "observed_cv_spread": 0.0774987410178521,
+    "null_cv_spread_mean": 0.058519258284135386,
+    "null_cv_spread_std": 0.018010524503413932,
+    "p_value": 0.145,
+    "verdict": "NO_STRUCTURE",
+    "interpretation": "Mass heterogeneity in Falls is consistent with random variation",
+    "class_results": [
+      {
+        "class": "L6",
+        "n": 257,
+        "cv_observed": 0.2386692151242227,
+        "cv_bootstrap_mean": 0.24718909727786684,
+        "cv_bootstrap_std": 0.046117078019710024,
+        "cv_ci_low": 0.16933511627265424,
+        "cv_ci_high": 0.346319671864526
+      },
+      {
+        "class": "H5",
+        "n": 160,
+        "cv_observed": 0.3160642795502109,
+        "cv_bootstrap_mean": 0.2637332638978201,
+        "cv_bootstrap_std": 0.05417535878115144,
+        "cv_ci_low": 0.16162277988553142,
+        "cv_ci_high": 0.37500227203507774
+      },
+      {
+        "class": "H6",
+        "n": 91,
+        "cv_observed": 0.2894090967806684,
+        "cv_bootstrap_mean": 0.29793157891969246,
+        "cv_bootstrap_std": 0.06595284236103911,
+        "cv_ci_low": 0.1856755908850664,
+        "cv_ci_high": 0.44140295413091396
+      },
+      {
+        "class": "L5",
+        "n": 76,
+        "cv_observed": 0.26958445974625195,
+        "cv_bootstrap_mean": 0.3121896914317728,
+        "cv_bootstrap_std": 0.09282020499862825,
+        "cv_ci_low": 0.1688907857179203,
+        "cv_ci_high": 0.5209247289270944
+      },
+      {
+        "class": "H4",
+        "n": 50,
+        "cv_observed": 0.18692666131194677,
+        "cv_bootstrap_mean": 0.2080104481045831,
+        "cv_bootstrap_std": 0.03088819888473306,
+        "cv_ci_low": 0.15140841630094518,
+        "cv_ci_high": 0.269809286211273
+      },
+      {
+        "class": "LL6",
+        "n": 42,
+        "cv_observed": 0.22285678269695622,
+        "cv_bootstrap_mean": 0.28936854185989974,
+        "cv_bootstrap_std": 0.06631325318180376,
+        "cv_ci_low": 0.1786493921345031,
+        "cv_ci_high": 0.42400416322682183
+      },
+      {
+        "class": "Stone-uncl",
+        "n": 24,
+        "cv_observed": 0.4616655198859215,
+        "cv_bootstrap_mean": 0.4019659437866119,
+        "cv_bootstrap_std": 0.138940223939304,
+        "cv_ci_low": 0.17913394253202553,
+        "cv_ci_high": 0.7092626703400724
+      },
+      {
+        "class": "L4",
+        "n": 20,
+        "cv_observed": 0.2818234816750364,
+        "cv_bootstrap_mean": 0.27346245346384124,
+        "cv_bootstrap_std": 0.040671301541902564,
+        "cv_ci_low": 0.19001031570982796,
+        "cv_ci_high": 0.34952211678151773
+      }
+    ],
+    "observed_cvs": {
+      "L6": 0.2386692151242227,
+      "H5": 0.3160642795502109,
+      "H6": 0.2894090967806684,
+      "L5": 0.26958445974625195,
+      "H4": 0.18692666131194677,
+      "LL6": 0.22285678269695622,
+      "Stone-uncl": 0.4616655198859215,
+      "L4": 0.2818234816750364
+    }
+  },
+  "h_fall_2": {
+    "test": "h_fall_2",
+    "status": "completed",
+    "falls_total": 1107,
+    "finds_total": 44609,
+    "n_classes_compared": 16,
+    "chi2_statistic": 1880.259972372033,
+    "chi2_dof": 15,
+    "chi2_p": 0.0,
+    "n_significant_classes": 10,
+    "over_represented": [
+      {
+        "class": "Stone-uncl",
+        "enrichment_ratio": 161.1887985546522,
+        "fisher_p": 9.38459282306758e-56
+      },
+      {
+        "class": "OC",
+        "enrichment_ratio": 17.584232569598424,
+        "fisher_p": 4.141906362908164e-20
+      },
+      {
+        "class": "L",
+        "enrichment_ratio": 10.074299909665763,
+        "fisher_p": 2.8396120367061915e-07
+      },
+      {
+        "class": "Eucrite-mmict",
+        "enrichment_ratio": 8.059439927732612,
+        "fisher_p": 1.2815776696695613e-10
+      },
+      {
+        "class": "H",
+        "enrichment_ratio": 7.378360497219996,
+        "fisher_p": 1.1720239870925618e-07
+      },
+      {
+        "class": "Howardite",
+        "enrichment_ratio": 2.8783714027616463,
+        "fisher_p": 0.0002806034717787666
+      },
+      {
+        "class": "L6",
+        "enrichment_ratio": 1.3159499321113948,
+        "fisher_p": 2.9840382763075573e-06
+      }
+    ],
+    "under_represented": [
+      {
+        "class": "LL5",
+        "enrichment_ratio": 0.27872107503989735,
+        "fisher_p": 1.803189386853479e-12
+      },
+      {
+        "class": "H4",
+        "enrichment_ratio": 0.4842249415845116,
+        "fisher_p": 3.0365095247914874e-09
+      },
+      {
+        "class": "L5",
+        "enrichment_ratio": 0.6488532145208457,
+        "fisher_p": 3.572431426870244e-05
+      }
+    ],
+    "verdict": "STRONG_DIFFERENCE",
+    "interpretation": "Falls and Finds have significantly different class compositions (10 classes differ)",
+    "all_enrichment": [
+      {
+        "class": "Stone-uncl",
+        "falls_n": 40,
+        "finds_n": 10,
+        "falls_frac": 0.036133694670280034,
+        "finds_frac": 0.0002241700105359905,
+        "enrichment_ratio": 161.1887985546522,
+        "odds_ratio": 167.19400187441425,
+        "fisher_p": 9.38459282306758e-56,
+        "rank": 1,
+        "bh_threshold": 0.003125,
+        "significant": true
+      },
+      {
+        "class": "OC",
+        "falls_n": 24,
+        "finds_n": 55,
+        "falls_frac": 0.02168021680216802,
+        "finds_frac": 0.0012329350579479478,
+        "enrichment_ratio": 17.584232569598424,
+        "odds_ratio": 17.9517501888693,
+        "fisher_p": 4.141906362908164e-20,
+        "rank": 2,
+        "bh_threshold": 0.00625,
+        "significant": true
+      },
+      {
+        "class": "LL5",
+        "falls_n": 19,
+        "finds_n": 2747,
+        "falls_frac": 0.017163504968383016,
+        "finds_frac": 0.06157950189423659,
+        "enrichment_ratio": 0.27872107503989735,
+        "odds_ratio": 0.26612521146063084,
+        "fisher_p": 1.803189386853479e-12,
+        "rank": 3,
+        "bh_threshold": 0.009375000000000001,
+        "significant": true
+      },
+      {
+        "class": "Eucrite-mmict",
+        "falls_n": 18,
+        "finds_n": 90,
+        "falls_frac": 0.016260162601626018,
+        "finds_frac": 0.0020175300948239144,
+        "enrichment_ratio": 8.059439927732612,
+        "odds_ratio": 8.176124885215794,
+        "fisher_p": 1.2815776696695613e-10,
+        "rank": 4,
+        "bh_threshold": 0.0125,
+        "significant": true
+      },
+      {
+        "class": "H4",
+        "falls_n": 50,
+        "finds_n": 4161,
+        "falls_frac": 0.045167118337850046,
+        "finds_frac": 0.09327714138402564,
+        "enrichment_ratio": 0.4842249415845116,
+        "odds_ratio": 0.4598268782725206,
+        "fisher_p": 3.0365095247914874e-09,
+        "rank": 5,
+        "bh_threshold": 0.015625,
+        "significant": true
+      },
+      {
+        "class": "H",
+        "falls_n": 13,
+        "finds_n": 71,
+        "falls_frac": 0.011743450767841012,
+        "finds_frac": 0.0015916070748055325,
+        "enrichment_ratio": 7.378360497219996,
+        "odds_ratio": 7.454154543347839,
+        "fisher_p": 1.1720239870925618e-07,
+        "rank": 6,
+        "bh_threshold": 0.018750000000000003,
+        "significant": true
+      },
+      {
+        "class": "L",
+        "falls_n": 10,
+        "finds_n": 40,
+        "falls_frac": 0.009033423667570008,
+        "finds_frac": 0.000896680042143962,
+        "enrichment_ratio": 10.074299909665763,
+        "odds_ratio": 10.157019143117594,
+        "fisher_p": 2.8396120367061915e-07,
+        "rank": 7,
+        "bh_threshold": 0.021875000000000002,
+        "significant": true
+      },
+      {
+        "class": "L6",
+        "falls_n": 262,
+        "finds_n": 8023,
+        "falls_frac": 0.23667570009033423,
+        "finds_frac": 0.17985159945302517,
+        "enrichment_ratio": 1.3159499321113948,
+        "odds_ratio": 1.4139131063281822,
+        "fisher_p": 2.9840382763075573e-06,
+        "rank": 8,
+        "bh_threshold": 0.025,
+        "significant": true
+      },
+      {
+        "class": "L5",
+        "falls_n": 76,
+        "finds_n": 4720,
+        "falls_frac": 0.06865401987353206,
+        "finds_frac": 0.10580824497298752,
+        "enrichment_ratio": 0.6488532145208457,
+        "odds_ratio": 0.6229684854263592,
+        "fisher_p": 3.572431426870244e-05,
+        "rank": 9,
+        "bh_threshold": 0.028125,
+        "significant": true
+      },
+      {
+        "class": "Howardite",
+        "falls_n": 16,
+        "finds_n": 224,
+        "falls_frac": 0.014453477868112014,
+        "finds_frac": 0.0050214082360061875,
+        "enrichment_ratio": 2.8783714027616463,
+        "odds_ratio": 2.9059185544061803,
+        "fisher_p": 0.0002806034717787666,
+        "rank": 10,
+        "bh_threshold": 0.03125,
+        "significant": true
+      },
+      {
+        "class": "H6",
+        "falls_n": 91,
+        "finds_n": 4437,
+        "falls_frac": 0.08220415537488708,
+        "finds_frac": 0.09946423367481898,
+        "enrichment_ratio": 0.8264694990124719,
+        "odds_ratio": 0.810926904927959,
+        "fisher_p": 0.059371827546865166,
+        "rank": 11,
+        "bh_threshold": 0.034375,
+        "significant": false
+      },
+      {
+        "class": "L4",
+        "falls_n": 20,
+        "finds_n": 1233,
+        "falls_frac": 0.018066847335140017,
+        "finds_frac": 0.02764016229908763,
+        "enrichment_ratio": 0.6536447629953455,
+        "odds_ratio": 0.647272081541718,
+        "fisher_p": 0.06134800888267558,
+        "rank": 12,
+        "bh_threshold": 0.037500000000000006,
+        "significant": false
+      },
+      {
+        "class": "CM2",
+        "falls_n": 15,
+        "finds_n": 401,
+        "falls_frac": 0.013550135501355014,
+        "finds_frac": 0.008989217422493218,
+        "enrichment_ratio": 1.5073765450871468,
+        "odds_ratio": 1.514346003124058,
+        "fisher_p": 0.14509209827243152,
+        "rank": 13,
+        "bh_threshold": 0.040625,
+        "significant": false
+      },
+      {
+        "class": "Iron, IIIAB",
+        "falls_n": 10,
+        "finds_n": 275,
+        "falls_frac": 0.009033423667570008,
+        "finds_frac": 0.006164675289739739,
+        "enrichment_ratio": 1.465352714133202,
+        "odds_ratio": 1.4695947625756194,
+        "fisher_p": 0.24021502703278058,
+        "rank": 14,
+        "bh_threshold": 0.043750000000000004,
+        "significant": false
+      },
+      {
+        "class": "LL6",
+        "falls_n": 42,
+        "finds_n": 2001,
+        "falls_frac": 0.037940379403794036,
+        "finds_frac": 0.0448564191082517,
+        "enrichment_ratio": 0.8458182832702889,
+        "odds_ratio": 0.8397378775401032,
+        "fisher_p": 0.30236219758592164,
+        "rank": 15,
+        "bh_threshold": 0.046875,
+        "significant": false
+      },
+      {
+        "class": "H5",
+        "falls_n": 163,
+        "finds_n": 6979,
+        "falls_frac": 0.14724480578139115,
+        "finds_frac": 0.15644825035306778,
+        "enrichment_ratio": 0.9411725950855534,
+        "odds_ratio": 0.9310148969912158,
+        "fisher_p": 0.4260050800082399,
+        "rank": 16,
+        "bh_threshold": 0.05,
+        "significant": false
+      }
+    ]
+  },
+  "h_fall_3": {
+    "test": "h_fall_3",
+    "status": "no_month_data",
+    "message": "Month information not available in dataset"
+  }
+}

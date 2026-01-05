@@ -1,0 +1,4 @@
+hypothesis,description,result,p_value
+H-TEMP-1,Classes appear in waves,SUPPORTED,1.9107378507719722e-143
+H-TEMP-2,Mass decreases over time,SUPPORTED,0.0015758576251139295
+H-TEMP-3,Antarctica distorts catalog,SUPPORTED,0.0

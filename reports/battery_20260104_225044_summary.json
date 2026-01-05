@@ -1,0 +1,3111 @@
+{
+  "timestamp_utc": "2026-01-04T21:50:44.434679+00:00",
+  "parameters": {
+    "null_spec": "2-4",
+    "n_permutations": 50,
+    "n_bootstrap": 0,
+    "seed": 42,
+    "min_samples": 100,
+    "fdr_threshold": 0.1,
+    "subsample_size": 100
+  },
+  "null_models_used": [
+    "null2",
+    "null3",
+    "null4"
+  ],
+  "stats_used": [
+    "cv",
+    "varlog"
+  ],
+  "bin_configs": [
+    10
+  ],
+  "total_classes_tested": 33,
+  "survival_summary": {
+    "6": 5,
+    "3": 9,
+    "2": 2,
+    "0": 13,
+    "1": 4
+  },
+  "robust_candidates": [
+    "L6",
+    "H6",
+    "H4",
+    "Ureilite",
+    "Eucrite-pmict"
+  ],
+  "class_results": {
+    "L6": {
+      "recclass": "L6",
+      "count": 8279,
+      "stats_observed": {
+        "cv": 9.659273095823206,
+        "varlog": 5.746864567055965,
+        "mad_ratio": 0.9388888888888888,
+        "n": 8279
+      },
+      "survival": {
+        "null2_cv": true,
+        "null2_varlog": true,
+        "null3_cv": true,
+        "null3_varlog": true,
+        "null4_cv": true,
+        "null4_varlog": true
+      },
+      "total_survived": 6,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 9.659273095823206,
+            "null_mean": 37.94356265537382,
+            "null_std": 7.379097469596982,
+            "z_score": -3.8330283176345397,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.746864567055965,
+            "null_mean": 6.089963066312253,
+            "null_std": 0.05091399927247679,
+            "z_score": -6.738785091701887,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 9.659273095823206,
+            "null_mean": 37.25398590312005,
+            "null_std": 10.707605496069137,
+            "z_score": -2.577113325423422,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.746864567055965,
+            "null_mean": 6.038431083831282,
+            "null_std": 0.06117128242153416,
+            "z_score": -4.7663953612434975,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 9.659273095823206,
+            "null_mean": 37.70542736612729,
+            "null_std": 12.46108350374691,
+            "z_score": -2.250699488681776,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.746864567055965,
+            "null_mean": 6.099901428848543,
+            "null_std": 0.06372623963752709,
+            "z_score": -5.5398979101958785,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H5": {
+      "recclass": "H5",
+      "count": 7138,
+      "stats_observed": {
+        "cv": 23.62173029914869,
+        "varlog": 5.6568616037638515,
+        "mad_ratio": 0.903225806451613,
+        "n": 7138
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 23.62173029914869,
+            "null_mean": 38.68419956944638,
+            "null_std": 10.108861274487737,
+            "z_score": -1.4900263107093605,
+            "p_value": 0.16,
+            "quantile": 0.08,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.6568616037638515,
+            "null_mean": 5.886494584561908,
+            "null_std": 0.0765856357643451,
+            "z_score": -2.998381857201525,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 23.62173029914869,
+            "null_mean": 38.67568538170919,
+            "null_std": 11.039351629825342,
+            "z_score": -1.363662974724782,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.6568616037638515,
+            "null_mean": 5.826785814094532,
+            "null_std": 0.04786439955399861,
+            "z_score": -3.5501168282489255,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 23.62173029914869,
+            "null_mean": 35.16555001809644,
+            "null_std": 10.392260214064649,
+            "z_score": -1.110809340909748,
+            "p_value": 0.44,
+            "quantile": 0.22,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.6568616037638515,
+            "null_mean": 5.9018867104248365,
+            "null_std": 0.06688200990407767,
+            "z_score": -3.6635428123706295,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "L5": {
+      "recclass": "L5",
+      "count": 4794,
+      "stats_observed": {
+        "cv": 18.43311788713346,
+        "varlog": 5.978988681301078,
+        "mad_ratio": 0.9556038497361068,
+        "n": 4794
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 2,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 18.43311788713346,
+            "null_mean": 36.48960124006501,
+            "null_std": 11.738675712033148,
+            "z_score": -1.5382044615494495,
+            "p_value": 0.2,
+            "quantile": 0.1,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.978988681301078,
+            "null_mean": 6.215173531944179,
+            "null_std": 0.08404998789773976,
+            "z_score": -2.8100521671753014,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 18.43311788713346,
+            "null_mean": 33.79248761717261,
+            "null_std": 14.067739810322436,
+            "z_score": -1.091815027654191,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.978988681301078,
+            "null_mean": 6.042368486739636,
+            "null_std": 0.06813231324414895,
+            "z_score": -0.9302459056606425,
+            "p_value": 0.36,
+            "quantile": 0.18,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 18.43311788713346,
+            "null_mean": 33.54562749637605,
+            "null_std": 11.094614522874222,
+            "z_score": -1.3621482367038988,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.978988681301078,
+            "null_mean": 6.195679326268879,
+            "null_std": 0.08048353600180928,
+            "z_score": -2.6923599003270624,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H6": {
+      "recclass": "H6",
+      "count": 4527,
+      "stats_observed": {
+        "cv": 9.874171612949972,
+        "varlog": 4.954778472351222,
+        "mad_ratio": 0.8734177215189874,
+        "n": 4527
+      },
+      "survival": {
+        "null2_cv": true,
+        "null2_varlog": true,
+        "null3_cv": true,
+        "null3_varlog": true,
+        "null4_cv": true,
+        "null4_varlog": true
+      },
+      "total_survived": 6,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 9.874171612949972,
+            "null_mean": 31.151982638464595,
+            "null_std": 13.719166823778334,
+            "z_score": -1.550955046966518,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.954778472351222,
+            "null_mean": 5.233919809862242,
+            "null_std": 0.08127315716863359,
+            "z_score": -3.434606790675426,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 9.874171612949972,
+            "null_mean": 32.26373458270977,
+            "null_std": 12.500941601451071,
+            "z_score": -1.7910301226557916,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.954778472351222,
+            "null_mean": 5.197514598497159,
+            "null_std": 0.06084633842257485,
+            "z_score": -3.989330047440925,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 9.874171612949972,
+            "null_mean": 31.974625590944335,
+            "null_std": 11.599471837532585,
+            "z_score": -1.90529830043499,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.954778472351222,
+            "null_mean": 5.269243639349218,
+            "null_std": 0.08134257547094131,
+            "z_score": -3.8659357068222544,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H4": {
+      "recclass": "H4",
+      "count": 4211,
+      "stats_observed": {
+        "cv": 9.881426160871934,
+        "varlog": 5.635837575580828,
+        "mad_ratio": 0.9183783783783783,
+        "n": 4211
+      },
+      "survival": {
+        "null2_cv": true,
+        "null2_varlog": true,
+        "null3_cv": true,
+        "null3_varlog": true,
+        "null4_cv": true,
+        "null4_varlog": true
+      },
+      "total_survived": 6,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 9.881426160871934,
+            "null_mean": 34.641460045922464,
+            "null_std": 11.796905458261469,
+            "z_score": -2.098858380501039,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.635837575580828,
+            "null_mean": 6.115120147634948,
+            "null_std": 0.09425877539510352,
+            "z_score": -5.084752799355989,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 9.881426160871934,
+            "null_mean": 34.56189281969218,
+            "null_std": 11.26636755190077,
+            "z_score": -2.1906321221214164,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.635837575580828,
+            "null_mean": 6.0406501029565725,
+            "null_std": 0.09018120907748604,
+            "z_score": -4.488878908553101,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 9.881426160871934,
+            "null_mean": 31.025412483664095,
+            "null_std": 11.556889459436382,
+            "z_score": -1.8295568541176763,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.635837575580828,
+            "null_mean": 6.092736600859113,
+            "null_std": 0.08242393510769991,
+            "z_score": -5.543280901127498,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "LL5": {
+      "recclass": "LL5",
+      "count": 2766,
+      "stats_observed": {
+        "cv": 18.833695216428218,
+        "varlog": 3.8369499164103704,
+        "mad_ratio": 0.8580246913580246,
+        "n": 2766
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 18.833695216428218,
+            "null_mean": 24.754230340741593,
+            "null_std": 13.143854538379163,
+            "z_score": -0.45044131514281555,
+            "p_value": 0.96,
+            "quantile": 0.48,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.8369499164103704,
+            "null_mean": 4.174554834767324,
+            "null_std": 0.07700153619045343,
+            "z_score": -4.3843919882576285,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 18.833695216428218,
+            "null_mean": 22.419358692686547,
+            "null_std": 10.587260362066209,
+            "z_score": -0.33867717933013514,
+            "p_value": 0.92,
+            "quantile": 0.46,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.8369499164103704,
+            "null_mean": 4.090014038704824,
+            "null_std": 0.0691979003532987,
+            "z_score": -3.6571069498121,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 18.833695216428218,
+            "null_mean": 29.17726180416646,
+            "null_std": 12.487581735743046,
+            "z_score": -0.828308219047086,
+            "p_value": 0.68,
+            "quantile": 0.34,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.8369499164103704,
+            "null_mean": 4.188740953953021,
+            "null_std": 0.07443002960349662,
+            "z_score": -4.726466446630616,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "LL6": {
+      "recclass": "LL6",
+      "count": 2043,
+      "stats_observed": {
+        "cv": 10.808168123077506,
+        "varlog": 4.237018141827892,
+        "mad_ratio": 0.8889610389610391,
+        "n": 2043
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 10.808168123077506,
+            "null_mean": 21.5358198047885,
+            "null_std": 9.575767577369362,
+            "z_score": -1.1202915687995505,
+            "p_value": 0.2,
+            "quantile": 0.1,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.237018141827892,
+            "null_mean": 4.616190742326384,
+            "null_std": 0.1045550927243625,
+            "z_score": -3.6265340177938636,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 10.808168123077506,
+            "null_mean": 21.27875637119754,
+            "null_std": 10.060795866221378,
+            "z_score": -1.0407316068577155,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.237018141827892,
+            "null_mean": 4.523266505268813,
+            "null_std": 0.09108511766603629,
+            "z_score": -3.1426469084713866,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 10.808168123077506,
+            "null_mean": 23.03340797108141,
+            "null_std": 10.916133383823446,
+            "z_score": -1.1199240077187418,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.237018141827892,
+            "null_mean": 4.651969747648196,
+            "null_std": 0.09423584734467834,
+            "z_score": -4.403330765441857,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "L4": {
+      "recclass": "L4",
+      "count": 1253,
+      "stats_observed": {
+        "cv": 7.599804926352292,
+        "varlog": 5.644365473376417,
+        "mad_ratio": 0.9526542324246773,
+        "n": 1253
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": true,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 7.599804926352292,
+            "null_mean": 18.83195125929005,
+            "null_std": 7.668754766053553,
+            "z_score": -1.4646636482180766,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.644365473376417,
+            "null_mean": 6.155257483962425,
+            "null_std": 0.21881959683578295,
+            "z_score": -2.334763512837544,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 7.599804926352292,
+            "null_mean": 18.287133013369314,
+            "null_std": 7.93924592461761,
+            "z_score": -1.3461389392005478,
+            "p_value": 0.12,
+            "quantile": 0.06,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.644365473376417,
+            "null_mean": 5.95675444637432,
+            "null_std": 0.16460978841585472,
+            "z_score": -1.8977545381974057,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 7.599804926352292,
+            "null_mean": 19.364064874537064,
+            "null_std": 7.050023261257443,
+            "z_score": -1.6686838485815858,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.644365473376417,
+            "null_mean": 6.085885208043894,
+            "null_std": 0.18969325869211848,
+            "z_score": -2.327545732049898,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H4/5": {
+      "recclass": "H4/5",
+      "count": 428,
+      "stats_observed": {
+        "cv": 8.556723825679896,
+        "varlog": 5.686022495152589,
+        "mad_ratio": 0.8344246959775492,
+        "n": 428
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 8.556723825679896,
+            "null_mean": 13.294860888913474,
+            "null_std": 4.585603607955201,
+            "z_score": -1.033263550083954,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.686022495152589,
+            "null_mean": 5.819158521185048,
+            "null_std": 0.3002110526178941,
+            "z_score": -0.443474765074401,
+            "p_value": 0.72,
+            "quantile": 0.36,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 8.556723825679896,
+            "null_mean": 9.410289151199969,
+            "null_std": 4.118726515639579,
+            "z_score": -0.2072401074164368,
+            "p_value": 0.92,
+            "quantile": 0.54,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.686022495152589,
+            "null_mean": 5.459785327641868,
+            "null_std": 0.21059093791126707,
+            "z_score": 1.0742967848219838,
+            "p_value": 0.28,
+            "quantile": 0.86,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 8.556723825679896,
+            "null_mean": 12.888273530644392,
+            "null_std": 5.073334326634612,
+            "z_score": -0.8537875539217269,
+            "p_value": 0.44,
+            "quantile": 0.22,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.686022495152589,
+            "null_mean": 5.757263509543972,
+            "null_std": 0.27916072533035363,
+            "z_score": -0.2551971245492304,
+            "p_value": 0.8,
+            "quantile": 0.4,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "CM2": {
+      "recclass": "CM2",
+      "count": 414,
+      "stats_observed": {
+        "cv": 13.510112585707349,
+        "varlog": 3.171738891639307,
+        "mad_ratio": 0.8095238095238095,
+        "n": 414
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 1,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 13.510112585707349,
+            "null_mean": 12.125733228295772,
+            "null_std": 4.150190974266982,
+            "z_score": 0.33357003713692707,
+            "p_value": 0.68,
+            "quantile": 0.66,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.171738891639307,
+            "null_mean": 3.370579477255396,
+            "null_std": 0.17870155467366886,
+            "z_score": -1.11269645067832,
+            "p_value": 0.2,
+            "quantile": 0.1,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 13.510112585707349,
+            "null_mean": 13.440870010019546,
+            "null_std": 3.791156339364019,
+            "z_score": 0.018264236420125594,
+            "p_value": 0.88,
+            "quantile": 0.56,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.171738891639307,
+            "null_mean": 3.48997311188276,
+            "null_std": 0.1651636186653919,
+            "z_score": -1.9267815927923564,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 13.510112585707349,
+            "null_mean": 11.346678109168694,
+            "null_std": 3.286518648986182,
+            "z_score": 0.6582754299008848,
+            "p_value": 0.44,
+            "quantile": 0.78,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.171738891639307,
+            "null_mean": 3.415880334821448,
+            "null_std": 0.19699579516421048,
+            "z_score": -1.2393231184382962,
+            "p_value": 0.2,
+            "quantile": 0.1,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H3": {
+      "recclass": "H3",
+      "count": 386,
+      "stats_observed": {
+        "cv": 9.209028481234588,
+        "varlog": 5.173323032999997,
+        "mad_ratio": 0.9097022094140249,
+        "n": 386
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 1,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 9.209028481234588,
+            "null_mean": 11.25660856236387,
+            "null_std": 4.545013376443067,
+            "z_score": -0.4505113432101095,
+            "p_value": 0.88,
+            "quantile": 0.44,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.173323032999997,
+            "null_mean": 5.566292624420027,
+            "null_std": 0.3182266936591377,
+            "z_score": -1.2348731242544693,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 9.209028481234588,
+            "null_mean": 8.970093224661975,
+            "null_std": 3.830427227621045,
+            "z_score": 0.062378226337172445,
+            "p_value": 0.76,
+            "quantile": 0.62,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.173323032999997,
+            "null_mean": 5.159565304207769,
+            "null_std": 0.21111753440864117,
+            "z_score": 0.06516620625929995,
+            "p_value": 0.92,
+            "quantile": 0.54,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 9.209028481234588,
+            "null_mean": 10.89016135743267,
+            "null_std": 3.9461024078947573,
+            "z_score": -0.426023631022532,
+            "p_value": 0.8,
+            "quantile": 0.4,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.173323032999997,
+            "null_mean": 5.574998126950046,
+            "null_std": 0.3389042757312042,
+            "z_score": -1.1852169556828784,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "L3": {
+      "recclass": "L3",
+      "count": 365,
+      "stats_observed": {
+        "cv": 14.118958023856754,
+        "varlog": 4.288703804156882,
+        "mad_ratio": 0.9203160270880361,
+        "n": 365
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 14.118958023856754,
+            "null_mean": 11.25788915314496,
+            "null_std": 4.285863776929871,
+            "z_score": 0.6675594511688581,
+            "p_value": 0.68,
+            "quantile": 0.66,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.288703804156882,
+            "null_mean": 4.575812606772624,
+            "null_std": 0.2901320611820526,
+            "z_score": -0.9895797156853555,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 14.118958023856754,
+            "null_mean": 8.68800689865878,
+            "null_std": 3.894554543709921,
+            "z_score": 1.3944986683957168,
+            "p_value": 0.32,
+            "quantile": 0.84,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.288703804156882,
+            "null_mean": 4.241294044787743,
+            "null_std": 0.1630612398240377,
+            "z_score": 0.2907481840583322,
+            "p_value": 0.6,
+            "quantile": 0.7,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 14.118958023856754,
+            "null_mean": 10.344045870813714,
+            "null_std": 3.941995131729935,
+            "z_score": 0.9576146156696113,
+            "p_value": 0.36,
+            "quantile": 0.82,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.288703804156882,
+            "null_mean": 4.482594854415092,
+            "null_std": 0.2271328041291637,
+            "z_score": -0.8536461785059888,
+            "p_value": 0.44,
+            "quantile": 0.22,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "CO3": {
+      "recclass": "CO3",
+      "count": 334,
+      "stats_observed": {
+        "cv": 10.200824745767223,
+        "varlog": 5.618214834378258,
+        "mad_ratio": 0.9501385041551247,
+        "n": 334
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 10.200824745767223,
+            "null_mean": 9.221970682033394,
+            "null_std": 4.054566641060218,
+            "z_score": 0.2414201443431871,
+            "p_value": 0.68,
+            "quantile": 0.66,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.618214834378258,
+            "null_mean": 5.957404255519557,
+            "null_std": 0.30952556393593345,
+            "z_score": -1.0958365339139011,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 10.200824745767223,
+            "null_mean": 7.6559220672684285,
+            "null_std": 3.3002473045169234,
+            "z_score": 0.7711248411643826,
+            "p_value": 0.44,
+            "quantile": 0.78,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.618214834378258,
+            "null_mean": 5.665620213974147,
+            "null_std": 0.25185227954815625,
+            "z_score": -0.18822692286501622,
+            "p_value": 0.92,
+            "quantile": 0.46,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 10.200824745767223,
+            "null_mean": 9.3365647113667,
+            "null_std": 3.683758120192638,
+            "z_score": 0.23461367608884365,
+            "p_value": 0.84,
+            "quantile": 0.58,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.618214834378258,
+            "null_mean": 5.962705823104342,
+            "null_std": 0.3690780647510491,
+            "z_score": -0.9333824511040775,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Ureilite": {
+      "recclass": "Ureilite",
+      "count": 300,
+      "stats_observed": {
+        "cv": 3.0132853141574585,
+        "varlog": 3.592793878870237,
+        "mad_ratio": 0.8395061728395062,
+        "n": 300
+      },
+      "survival": {
+        "null2_cv": true,
+        "null2_varlog": true,
+        "null3_cv": true,
+        "null3_varlog": true,
+        "null4_cv": true,
+        "null4_varlog": true
+      },
+      "total_survived": 6,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 3.0132853141574585,
+            "null_mean": 9.128277770283491,
+            "null_std": 3.73106519920689,
+            "z_score": -1.638940122897314,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.592793878870237,
+            "null_mean": 4.348235068261776,
+            "null_std": 0.2933680180700347,
+            "z_score": -2.5750632068257517,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 3.0132853141574585,
+            "null_mean": 8.850132681282487,
+            "null_std": 3.508454914734171,
+            "z_score": -1.6636518094083232,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.592793878870237,
+            "null_mean": 4.027276603107801,
+            "null_std": 0.20979504914917577,
+            "z_score": -2.07098654615354,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 3.0132853141574585,
+            "null_mean": 9.025388260427796,
+            "null_std": 4.213438287478643,
+            "z_score": -1.4268876238526875,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.592793878870237,
+            "null_mean": 4.308345817600979,
+            "null_std": 0.3753177995643564,
+            "z_score": -1.9065227909822198,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Iron, IIIAB": {
+      "recclass": "Iron, IIIAB",
+      "count": 284,
+      "stats_observed": {
+        "cv": 7.95506596348288,
+        "varlog": 10.992120827517951,
+        "mad_ratio": 0.9946575342465754,
+        "n": 284
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 7.95506596348288,
+            "null_mean": 8.274715029529425,
+            "null_std": 3.4192951146715536,
+            "z_score": -0.09348390686577189,
+            "p_value": 0.92,
+            "quantile": 0.54,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 10.992120827517951,
+            "null_mean": 7.0030427998251765,
+            "null_std": 0.4099407355457347,
+            "z_score": 9.730865175870614,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 7.95506596348288,
+            "null_mean": 8.543160800277656,
+            "null_std": 2.0995698721870606,
+            "z_score": -0.2801025317543609,
+            "p_value": 0.6,
+            "quantile": 0.3,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 10.992120827517951,
+            "null_mean": 8.522087043378821,
+            "null_std": 0.4799772487462249,
+            "z_score": 5.146147636354101,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 7.95506596348288,
+            "null_mean": 9.395877981659426,
+            "null_std": 3.1652317617333865,
+            "z_score": -0.45519953249411005,
+            "p_value": 0.8,
+            "quantile": 0.4,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 10.992120827517951,
+            "null_mean": 7.06115505075473,
+            "null_std": 0.3780637937584484,
+            "z_score": 10.397625590338292,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "LL4": {
+      "recclass": "LL4",
+      "count": 268,
+      "stats_observed": {
+        "cv": 6.444916836642406,
+        "varlog": 4.274087918601488,
+        "mad_ratio": 0.915407330206705,
+        "n": 268
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 6.444916836642406,
+            "null_mean": 8.812057293523912,
+            "null_std": 3.269547146571981,
+            "z_score": -0.7239964284850211,
+            "p_value": 0.48,
+            "quantile": 0.24,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.274087918601488,
+            "null_mean": 4.869422345740461,
+            "null_std": 0.29795073927710647,
+            "z_score": -1.9980968282991498,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 6.444916836642406,
+            "null_mean": 7.602670015074523,
+            "null_std": 2.7132172541195283,
+            "z_score": -0.4267086156386034,
+            "p_value": 0.72,
+            "quantile": 0.36,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.274087918601488,
+            "null_mean": 4.704822204162329,
+            "null_std": 0.2505642656937141,
+            "z_score": -1.7190571224045328,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 6.444916836642406,
+            "null_mean": 7.960365124448301,
+            "null_std": 2.9526253608221205,
+            "z_score": -0.5132545117013889,
+            "p_value": 0.8,
+            "quantile": 0.4,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.274087918601488,
+            "null_mean": 4.9071390827249255,
+            "null_std": 0.30954648424547687,
+            "z_score": -2.045092405641457,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "CV3": {
+      "recclass": "CV3",
+      "count": 256,
+      "stats_observed": {
+        "cv": 13.972125669748788,
+        "varlog": 7.022130912550418,
+        "mad_ratio": 0.9834824501032347,
+        "n": 256
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 13.972125669748788,
+            "null_mean": 9.062814285791978,
+            "null_std": 3.681288276628018,
+            "z_score": 1.3335851514605195,
+            "p_value": 0.4,
+            "quantile": 0.8,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 7.022130912550418,
+            "null_mean": 7.258297790767406,
+            "null_std": 0.4155984660828913,
+            "z_score": -0.5682573384904753,
+            "p_value": 0.6,
+            "quantile": 0.3,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 13.972125669748788,
+            "null_mean": 8.848043242409963,
+            "null_std": 3.3341275717201175,
+            "z_score": 1.5368585385877265,
+            "p_value": 0.2,
+            "quantile": 0.9,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 7.022130912550418,
+            "null_mean": 7.073240560637092,
+            "null_std": 0.38086072713172414,
+            "z_score": -0.1341951124012762,
+            "p_value": 0.92,
+            "quantile": 0.46,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 13.972125669748788,
+            "null_mean": 8.478511144430982,
+            "null_std": 3.660323168571394,
+            "z_score": 1.5008550535885978,
+            "p_value": 0.32,
+            "quantile": 0.84,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 7.022130912550418,
+            "null_mean": 7.24811319941108,
+            "null_std": 0.4684236487015879,
+            "z_score": -0.4824314218273487,
+            "p_value": 0.64,
+            "quantile": 0.32,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Diogenite": {
+      "recclass": "Diogenite",
+      "count": 241,
+      "stats_observed": {
+        "cv": 4.220150233573617,
+        "varlog": 4.576205130096004,
+        "mad_ratio": 0.9057377049180327,
+        "n": 241
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 4.220150233573617,
+            "null_mean": 8.378632000416603,
+            "null_std": 3.1983624213746684,
+            "z_score": -1.3001909161550413,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.576205130096004,
+            "null_mean": 5.046091411382658,
+            "null_std": 0.4045007999314839,
+            "z_score": -1.161644875278975,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 4.220150233573617,
+            "null_mean": 7.847409980789494,
+            "null_std": 3.198474979662273,
+            "z_score": -1.1340591282658337,
+            "p_value": 0.16,
+            "quantile": 0.08,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.576205130096004,
+            "null_mean": 4.849224335836071,
+            "null_std": 0.28364636605933874,
+            "z_score": -0.9625337688371858,
+            "p_value": 0.36,
+            "quantile": 0.18,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 4.220150233573617,
+            "null_mean": 8.236052846380092,
+            "null_std": 3.3548821667527062,
+            "z_score": -1.1970323883814946,
+            "p_value": 0.12,
+            "quantile": 0.06,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.576205130096004,
+            "null_mean": 5.067699500702569,
+            "null_std": 0.3396711197718847,
+            "z_score": -1.4469713260775352,
+            "p_value": 0.12,
+            "quantile": 0.06,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Howardite": {
+      "recclass": "Howardite",
+      "count": 240,
+      "stats_observed": {
+        "cv": 4.598425679528773,
+        "varlog": 3.829766951941642,
+        "mad_ratio": 0.8936156351791532,
+        "n": 240
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 4.598425679528773,
+            "null_mean": 8.395532152696045,
+            "null_std": 2.7908453609706645,
+            "z_score": -1.3605578174516368,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.829766951941642,
+            "null_mean": 4.708365900185781,
+            "null_std": 0.4025623290440284,
+            "z_score": -2.182516556704554,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 4.598425679528773,
+            "null_mean": 7.351862863902727,
+            "null_std": 3.2289829061348856,
+            "z_score": -0.852725847245143,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.829766951941642,
+            "null_mean": 4.4969040812293,
+            "null_std": 0.27559395520032354,
+            "z_score": -2.420724826140436,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 4.598425679528773,
+            "null_mean": 8.097003886392464,
+            "null_std": 3.1412797867241578,
+            "z_score": -1.1137429469509743,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.829766951941642,
+            "null_mean": 4.735963955268345,
+            "null_std": 0.3390624191703383,
+            "z_score": -2.672655393493926,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "LL": {
+      "recclass": "LL",
+      "count": 225,
+      "stats_observed": {
+        "cv": 4.5225917435157585,
+        "varlog": 2.7851576199193295,
+        "mad_ratio": 0.6775456919060051,
+        "n": 225
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 4.5225917435157585,
+            "null_mean": 8.605803971011477,
+            "null_std": 3.416050470774,
+            "z_score": -1.1953020783590926,
+            "p_value": 0.28,
+            "quantile": 0.14,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 2.7851576199193295,
+            "null_mean": 3.1668710821581367,
+            "null_std": 0.22397179998933953,
+            "z_score": -1.7042925147584462,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 4.5225917435157585,
+            "null_mean": 7.470723447765298,
+            "null_std": 2.9377975633420688,
+            "z_score": -1.003517649083933,
+            "p_value": 0.32,
+            "quantile": 0.16,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 2.7851576199193295,
+            "null_mean": 3.136515387497914,
+            "null_std": 0.24471076217015159,
+            "z_score": -1.4358083987098178,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 4.5225917435157585,
+            "null_mean": 8.25927056171806,
+            "null_std": 3.5606385576191983,
+            "z_score": -1.0494406432257508,
+            "p_value": 0.4,
+            "quantile": 0.2,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 2.7851576199193295,
+            "null_mean": 3.155552073979113,
+            "null_std": 0.20431561313391244,
+            "z_score": -1.812854379449797,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Eucrite": {
+      "recclass": "Eucrite",
+      "count": 221,
+      "stats_observed": {
+        "cv": 2.8854714067596006,
+        "varlog": 3.026014795913853,
+        "mad_ratio": 0.8636363636363636,
+        "n": 221
+      },
+      "survival": {
+        "null2_cv": true,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": true,
+        "null4_varlog": false
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 2.8854714067596006,
+            "null_mean": 8.003188642894093,
+            "null_std": 3.3256876789091985,
+            "z_score": -1.5388448135373514,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.026014795913853,
+            "null_mean": 3.5532760082783557,
+            "null_std": 0.36029166559757136,
+            "z_score": -1.4634288347747357,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 2.8854714067596006,
+            "null_mean": 5.757538506607102,
+            "null_std": 2.6853409374098574,
+            "z_score": -1.0695353650764923,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.026014795913853,
+            "null_mean": 3.1554569948421824,
+            "null_std": 0.25537050848439247,
+            "z_score": -0.5068799827222045,
+            "p_value": 0.72,
+            "quantile": 0.36,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 2.8854714067596006,
+            "null_mean": 8.245657067189956,
+            "null_std": 3.357888665401969,
+            "z_score": -1.5962964215160165,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.026014795913853,
+            "null_mean": 3.446209682112865,
+            "null_std": 0.30084054725139103,
+            "z_score": -1.3967362113853787,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Eucrite-pmict": {
+      "recclass": "Eucrite-pmict",
+      "count": 207,
+      "stats_observed": {
+        "cv": 2.627898825987294,
+        "varlog": 3.374443814441616,
+        "mad_ratio": 0.8771428571428571,
+        "n": 207
+      },
+      "survival": {
+        "null2_cv": true,
+        "null2_varlog": true,
+        "null3_cv": true,
+        "null3_varlog": true,
+        "null4_cv": true,
+        "null4_varlog": true
+      },
+      "total_survived": 6,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 2.627898825987294,
+            "null_mean": 7.319373811109371,
+            "null_std": 2.927566736336678,
+            "z_score": -1.6025168365564273,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.374443814441616,
+            "null_mean": 3.9958244096899853,
+            "null_std": 0.33955332498215984,
+            "z_score": -1.8299941409232758,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 2.627898825987294,
+            "null_mean": 8.398770311181497,
+            "null_std": 2.8353901013348857,
+            "z_score": -2.0353007095839506,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.374443814441616,
+            "null_mean": 4.078524103543993,
+            "null_std": 0.3480246263906457,
+            "z_score": -2.0230760575893014,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 2.627898825987294,
+            "null_mean": 7.79644933169012,
+            "null_std": 2.6440789130328026,
+            "z_score": -1.954764088252726,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.374443814441616,
+            "null_mean": 4.179104198459257,
+            "null_std": 0.30006728782566855,
+            "z_score": -2.68159981665555,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "E3": {
+      "recclass": "E3",
+      "count": 206,
+      "stats_observed": {
+        "cv": 6.213960754341548,
+        "varlog": 0.627596405830816,
+        "mad_ratio": 0.37106918238993714,
+        "n": 206
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": true,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 3,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 6.213960754341548,
+            "null_mean": 5.289948041055178,
+            "null_std": 0.8199359959480045,
+            "z_score": 1.1269327335946906,
+            "p_value": 0.44,
+            "quantile": 0.78,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 0.627596405830816,
+            "null_mean": 0.7593407887310646,
+            "null_std": 0.07004392627812868,
+            "z_score": -1.8808823248588504,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 6.213960754341548,
+            "null_mean": 5.325212188069371,
+            "null_std": 0.8321686540923896,
+            "z_score": 1.0679909197511122,
+            "p_value": 0.36,
+            "quantile": 0.82,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 0.627596405830816,
+            "null_mean": 0.7408757495022246,
+            "null_std": 0.06322156959554713,
+            "z_score": -1.791783158755792,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 6.213960754341548,
+            "null_mean": 5.412698741984941,
+            "null_std": 0.7584263625769555,
+            "z_score": 1.056479642445584,
+            "p_value": 0.36,
+            "quantile": 0.82,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 0.627596405830816,
+            "null_mean": 0.771147077852269,
+            "null_std": 0.07080809371205615,
+            "z_score": -2.027320105597071,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H5/6": {
+      "recclass": "H5/6",
+      "count": 193,
+      "stats_observed": {
+        "cv": 3.1635670320624167,
+        "varlog": 3.6300137052961277,
+        "mad_ratio": 0.8414634146341463,
+        "n": 193
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 1,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 3.1635670320624167,
+            "null_mean": 7.257364507554118,
+            "null_std": 2.778080225766916,
+            "z_score": -1.473606643005268,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.6300137052961277,
+            "null_mean": 4.304705268564179,
+            "null_std": 0.4735875838390563,
+            "z_score": -1.4246394675273797,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 3.1635670320624167,
+            "null_mean": 5.7286714395226515,
+            "null_std": 3.001105185424771,
+            "z_score": -0.8547199278179164,
+            "p_value": 0.32,
+            "quantile": 0.16,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.6300137052961277,
+            "null_mean": 3.748657643371877,
+            "null_std": 0.2699904332037204,
+            "z_score": -0.4394375632792394,
+            "p_value": 0.6,
+            "quantile": 0.3,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 3.1635670320624167,
+            "null_mean": 7.032590641836042,
+            "null_std": 3.092093202704912,
+            "z_score": -1.251263579761783,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.6300137052961277,
+            "null_mean": 4.230593152123753,
+            "null_std": 0.45883375769689194,
+            "z_score": -1.3089260255004422,
+            "p_value": 0.16,
+            "quantile": 0.08,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Mesosiderite": {
+      "recclass": "Mesosiderite",
+      "count": 136,
+      "stats_observed": {
+        "cv": 4.899626723402749,
+        "varlog": 8.083546365036048,
+        "mad_ratio": 0.984062059238364,
+        "n": 136
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 4.899626723402749,
+            "null_mean": 6.5838929516691636,
+            "null_std": 2.4304164673769604,
+            "z_score": -0.6929949047309443,
+            "p_value": 0.52,
+            "quantile": 0.26,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 8.083546365036048,
+            "null_mean": 8.04051390009334,
+            "null_std": 0.7146434882573314,
+            "z_score": 0.06021529007091887,
+            "p_value": 0.8,
+            "quantile": 0.6,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 4.899626723402749,
+            "null_mean": 5.956118935144221,
+            "null_std": 2.5392572468312693,
+            "z_score": -0.4160634819728742,
+            "p_value": 0.8,
+            "quantile": 0.4,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 8.083546365036048,
+            "null_mean": 7.384071945369699,
+            "null_std": 0.5090572356679949,
+            "z_score": 1.3740584960912796,
+            "p_value": 0.2,
+            "quantile": 0.9,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 4.899626723402749,
+            "null_mean": 6.685557530357317,
+            "null_std": 2.7957476980444795,
+            "z_score": -0.6388025672716319,
+            "p_value": 0.72,
+            "quantile": 0.36,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 8.083546365036048,
+            "null_mean": 7.94370297421375,
+            "null_std": 0.6752718962062124,
+            "z_score": 0.2070919752590934,
+            "p_value": 0.76,
+            "quantile": 0.62,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "CR2": {
+      "recclass": "CR2",
+      "count": 135,
+      "stats_observed": {
+        "cv": 3.3204609575209005,
+        "varlog": 3.4668562186711065,
+        "mad_ratio": 0.8334246575342467,
+        "n": 135
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 3.3204609575209005,
+            "null_mean": 6.909849481848698,
+            "null_std": 2.2218476749605847,
+            "z_score": -1.6154971219579546,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 3.4668562186711065,
+            "null_mean": 3.926377219235671,
+            "null_std": 0.33808381695643935,
+            "z_score": -1.359192536044314,
+            "p_value": 0.16,
+            "quantile": 0.08,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 3.3204609575209005,
+            "null_mean": 5.151013452869714,
+            "null_std": 1.9378647918011231,
+            "z_score": -0.9446234345624446,
+            "p_value": 0.44,
+            "quantile": 0.22,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 3.4668562186711065,
+            "null_mean": 3.6358657456378047,
+            "null_std": 0.28643339158673753,
+            "z_score": -0.5900482692693282,
+            "p_value": 0.68,
+            "quantile": 0.34,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 3.3204609575209005,
+            "null_mean": 6.427008522846323,
+            "null_std": 2.4579238718255763,
+            "z_score": -1.263890879996252,
+            "p_value": 0.2,
+            "quantile": 0.1,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 3.4668562186711065,
+            "null_mean": 3.8702251828173697,
+            "null_std": 0.3840370933076424,
+            "z_score": -1.0503385510814043,
+            "p_value": 0.16,
+            "quantile": 0.08,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "LL3": {
+      "recclass": "LL3",
+      "count": 128,
+      "stats_observed": {
+        "cv": 2.810596712232832,
+        "varlog": 4.4342150219786625,
+        "mad_ratio": 0.9195612431444241,
+        "n": 128
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": true,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 1,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 2.810596712232832,
+            "null_mean": 6.714275671963548,
+            "null_std": 2.5631725100897653,
+            "z_score": -1.5229872138391514,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.4342150219786625,
+            "null_mean": 5.213464235260797,
+            "null_std": 0.563751472454792,
+            "z_score": -1.3822566349831102,
+            "p_value": 0.12,
+            "quantile": 0.06,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 2.810596712232832,
+            "null_mean": 5.996554815948064,
+            "null_std": 2.124508119956613,
+            "z_score": -1.4996215235836783,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.4342150219786625,
+            "null_mean": 4.751307061789731,
+            "null_std": 0.33864987379280137,
+            "z_score": -0.9363418218932441,
+            "p_value": 0.4,
+            "quantile": 0.2,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 2.810596712232832,
+            "null_mean": 6.14163286093984,
+            "null_std": 2.0218155880804902,
+            "z_score": -1.6475469713187296,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.4342150219786625,
+            "null_mean": 5.067792374977206,
+            "null_std": 0.5944976769553895,
+            "z_score": -1.0657356244742504,
+            "p_value": 0.12,
+            "quantile": 0.06,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "EH3": {
+      "recclass": "EH3",
+      "count": 120,
+      "stats_observed": {
+        "cv": 2.516950047847274,
+        "varlog": 4.632709600420566,
+        "mad_ratio": 0.9485148514851485,
+        "n": 120
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 2.516950047847274,
+            "null_mean": 5.924844579966866,
+            "null_std": 2.2215379022340143,
+            "z_score": -1.5340249332197116,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.632709600420566,
+            "null_mean": 5.1338070217909895,
+            "null_std": 0.40041874086796914,
+            "z_score": -1.2514334875640885,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 2.516950047847274,
+            "null_mean": 5.330996674074414,
+            "null_std": 2.1303344803672353,
+            "z_score": -1.3209412194004593,
+            "p_value": 0.08,
+            "quantile": 0.04,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.632709600420566,
+            "null_mean": 4.931445232256502,
+            "null_std": 0.2900204590353634,
+            "z_score": -1.030050200008511,
+            "p_value": 0.24,
+            "quantile": 0.12,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 2.516950047847274,
+            "null_mean": 6.155315509301927,
+            "null_std": 2.0690603513280768,
+            "z_score": -1.7584627046375323,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.632709600420566,
+            "null_mean": 5.283340122563821,
+            "null_std": 0.4711981684707066,
+            "z_score": -1.3808001933770326,
+            "p_value": 0.12,
+            "quantile": 0.06,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Iron, IIAB": {
+      "recclass": "Iron, IIAB",
+      "count": 117,
+      "stats_observed": {
+        "cv": 6.687555569568358,
+        "varlog": 7.2812540938018255,
+        "mad_ratio": 0.9612745098039216,
+        "n": 117
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 6.687555569568358,
+            "null_mean": 5.892560234739102,
+            "null_std": 2.4329821873915347,
+            "z_score": 0.3267575648309993,
+            "p_value": 0.8,
+            "quantile": 0.6,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 7.2812540938018255,
+            "null_mean": 4.289552857421473,
+            "null_std": 0.624957474805332,
+            "z_score": 4.787047690424436,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 6.687555569568358,
+            "null_mean": 6.085002703859297,
+            "null_std": 2.2291697073074443,
+            "z_score": 0.27030372058880564,
+            "p_value": 0.88,
+            "quantile": 0.56,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 7.2812540938018255,
+            "null_mean": 5.368011223690014,
+            "null_std": 0.8244839319308264,
+            "z_score": 2.3205338467073138,
+            "p_value": 0.04,
+            "quantile": 0.98,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 6.687555569568358,
+            "null_mean": 5.9453913087019234,
+            "null_std": 2.621098806782902,
+            "z_score": 0.28315005101900614,
+            "p_value": 0.72,
+            "quantile": 0.64,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 7.2812540938018255,
+            "null_mean": 4.357466416561431,
+            "null_std": 0.6087300483712186,
+            "z_score": 4.803094056328556,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Iron, ungrouped": {
+      "recclass": "Iron, ungrouped",
+      "count": 113,
+      "stats_observed": {
+        "cv": 6.045479589373152,
+        "varlog": 12.59970871586248,
+        "mad_ratio": 0.994,
+        "n": 113
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 6.045479589373152,
+            "null_mean": 4.716472428467318,
+            "null_std": 2.2236462080347104,
+            "z_score": 0.5976702391341424,
+            "p_value": 0.52,
+            "quantile": 0.74,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 12.59970871586248,
+            "null_mean": 7.965464501721865,
+            "null_std": 0.7552839720335244,
+            "z_score": 6.135764011598696,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 6.045479589373152,
+            "null_mean": 6.047435936149948,
+            "null_std": 2.5706238269069286,
+            "z_score": -0.0007610396964030012,
+            "p_value": 0.92,
+            "quantile": 0.54,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 12.59970871586248,
+            "null_mean": 9.309211239894372,
+            "null_std": 0.8342473256471864,
+            "z_score": 3.944270931183902,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 6.045479589373152,
+            "null_mean": 6.161159757468763,
+            "null_std": 2.2779738608554574,
+            "z_score": -0.05078204367637856,
+            "p_value": 0.96,
+            "quantile": 0.52,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 12.59970871586248,
+            "null_mean": 7.931548592170983,
+            "null_std": 0.8905858324182248,
+            "z_score": 5.241673462305091,
+            "p_value": 0.0,
+            "quantile": 1.0,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "H~5": {
+      "recclass": "H~5",
+      "count": 111,
+      "stats_observed": {
+        "cv": 5.212056012823311,
+        "varlog": 5.067453375589915,
+        "mad_ratio": 0.9448946515397082,
+        "n": 111
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 5.212056012823311,
+            "null_mean": 6.590715992690997,
+            "null_std": 2.141796538563448,
+            "z_score": -0.6436932523909976,
+            "p_value": 0.64,
+            "quantile": 0.32,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.067453375589915,
+            "null_mean": 5.334144911618779,
+            "null_std": 0.4882235020410257,
+            "z_score": -0.546248869450069,
+            "p_value": 0.68,
+            "quantile": 0.34,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 5.212056012823311,
+            "null_mean": 4.7615107996411465,
+            "null_std": 2.135680941770713,
+            "z_score": 0.21096091853898974,
+            "p_value": 0.84,
+            "quantile": 0.58,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.067453375589915,
+            "null_mean": 4.843291047810009,
+            "null_std": 0.42052746809662317,
+            "z_score": 0.5330503826408816,
+            "p_value": 0.48,
+            "quantile": 0.76,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 5.212056012823311,
+            "null_mean": 5.860138647542684,
+            "null_std": 2.3810321726876573,
+            "z_score": -0.27218558495487777,
+            "p_value": 1.0,
+            "quantile": 0.5,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.067453375589915,
+            "null_mean": 5.162406198408167,
+            "null_std": 0.532943069409517,
+            "z_score": -0.17816691550836086,
+            "p_value": 0.96,
+            "quantile": 0.52,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "L5/6": {
+      "recclass": "L5/6",
+      "count": 109,
+      "stats_observed": {
+        "cv": 6.2897196871718934,
+        "varlog": 4.017394905165002,
+        "mad_ratio": 0.9256,
+        "n": 109
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": true,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": true
+      },
+      "total_survived": 2,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 6.2897196871718934,
+            "null_mean": 5.9720620644449,
+            "null_std": 2.1509794646794833,
+            "z_score": 0.14768045345999023,
+            "p_value": 0.8,
+            "quantile": 0.6,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 4.017394905165002,
+            "null_mean": 5.283644632551467,
+            "null_std": 0.5462966749490001,
+            "z_score": -2.3178792503261647,
+            "p_value": 0.0,
+            "quantile": 0.0,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 6.2897196871718934,
+            "null_mean": 4.7147767704240815,
+            "null_std": 2.329540040057407,
+            "z_score": 0.6760746283240534,
+            "p_value": 0.44,
+            "quantile": 0.78,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 4.017394905165002,
+            "null_mean": 4.518812546662863,
+            "null_std": 0.5077687337600623,
+            "z_score": -0.9874921557001533,
+            "p_value": 0.2,
+            "quantile": 0.1,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 6.2897196871718934,
+            "null_mean": 5.902478622380505,
+            "null_std": 2.4589022240912835,
+            "z_score": 0.15748534488169744,
+            "p_value": 0.72,
+            "quantile": 0.64,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 4.017394905165002,
+            "null_mean": 5.229973097100121,
+            "null_std": 0.6805922047862308,
+            "z_score": -1.781651601954479,
+            "p_value": 0.04,
+            "quantile": 0.02,
+            "n_permutations": 50
+          }
+        }
+      }
+    },
+    "Eucrite-mmict": {
+      "recclass": "Eucrite-mmict",
+      "count": 108,
+      "stats_observed": {
+        "cv": 5.604643626102179,
+        "varlog": 5.146631335825125,
+        "mad_ratio": 0.8292565223948124,
+        "n": 108
+      },
+      "survival": {
+        "null2_cv": false,
+        "null2_varlog": false,
+        "null3_cv": false,
+        "null3_varlog": false,
+        "null4_cv": false,
+        "null4_varlog": false
+      },
+      "total_survived": 0,
+      "null_results": {
+        "null2": {
+          "cv": {
+            "null_name": "null2",
+            "stat_name": "cv",
+            "observed": 5.604643626102179,
+            "null_mean": 5.150768142470165,
+            "null_std": 1.954896398705566,
+            "z_score": 0.23217367627898233,
+            "p_value": 0.6,
+            "quantile": 0.7,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null2",
+            "stat_name": "varlog",
+            "observed": 5.146631335825125,
+            "null_mean": 4.773919946772085,
+            "null_std": 0.7002231542450817,
+            "z_score": 0.5322751565604318,
+            "p_value": 0.48,
+            "quantile": 0.76,
+            "n_permutations": 50
+          }
+        },
+        "null3": {
+          "cv": {
+            "null_name": "null3",
+            "stat_name": "cv",
+            "observed": 5.604643626102179,
+            "null_mean": 5.796735383586032,
+            "null_std": 2.23332672423889,
+            "z_score": -0.08601148922772023,
+            "p_value": 0.8,
+            "quantile": 0.6,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null3",
+            "stat_name": "varlog",
+            "observed": 5.146631335825125,
+            "null_mean": 5.289584883583936,
+            "null_std": 0.5787962039579633,
+            "z_score": -0.2469842524557979,
+            "p_value": 0.96,
+            "quantile": 0.48,
+            "n_permutations": 50
+          }
+        },
+        "null4": {
+          "cv": {
+            "null_name": "null4",
+            "stat_name": "cv",
+            "observed": 5.604643626102179,
+            "null_mean": 5.057923990513622,
+            "null_std": 1.5615155182366005,
+            "z_score": 0.3501211670351895,
+            "p_value": 0.68,
+            "quantile": 0.66,
+            "n_permutations": 50
+          },
+          "varlog": {
+            "null_name": "null4",
+            "stat_name": "varlog",
+            "observed": 5.146631335825125,
+            "null_mean": 4.913806870136109,
+            "null_std": 0.5328210023065926,
+            "z_score": 0.43696563138674055,
+            "p_value": 0.52,
+            "quantile": 0.74,
+            "n_permutations": 50
+          }
+        }
+      }
+    }
+  },
+  "sensitivity_results": {}
+}

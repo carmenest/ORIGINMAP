@@ -1,0 +1,15 @@
+recclass,full_n,stat,threshold_n,ever_significant
+L6,8279,cv,,False
+L6,8279,varlog,,False
+H6,4527,cv,,False
+H6,4527,varlog,,False
+H4,4211,cv,,False
+H4,4211,varlog,,False
+Ureilite,300,cv,300.0,True
+Ureilite,300,varlog,300.0,True
+H5,7138,cv,,False
+H5,7138,varlog,,False
+L5,4794,cv,,False
+L5,4794,varlog,,False
+LL6,2043,cv,,False
+LL6,2043,varlog,,False

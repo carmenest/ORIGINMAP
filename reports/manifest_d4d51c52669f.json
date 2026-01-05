@@ -1,0 +1,25 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "d4d51c52669f",
+  "timestamp_utc": "2026-01-05T00:02:21.922975",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "temporal_analysis": {
+      "json": "/home/carmenia/originmap/reports/O-D9_temporal_results.json",
+      "era_csv": "/home/carmenia/originmap/reports/O-D9_era_comparison.csv",
+      "hypothesis_csv": "/home/carmenia/originmap/reports/O-D9_hypothesis_summary.csv",
+      "plot": "/home/carmenia/originmap/reports/O-D9_temporal_analysis.png",
+      "observation": "/home/carmenia/originmap/notes/observations/observation_O-D9_20260105.md"
+    }
+  },
+  "parameters": {
+    "experiment": "O-D9",
+    "eras": [
+      "classical",
+      "modern_pre_antarctica",
+      "antarctica_boom",
+      "satellite_era"
+    ]
+  }
+}

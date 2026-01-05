@@ -1,0 +1,15 @@
+{
+  "is_first_run": false,
+  "previous_count": 1,
+  "changes": [],
+  "stable_anomalies": [
+    "heavy_tails:Extreme kurtosis (leptokurtic)",
+    "temporal_asymmetries:Classes concentrated in narrow time windows",
+    "diversity_scaling:High singleton class ratio",
+    "heavy_tails:Extreme mean/median ratio",
+    "diversity_scaling:Singleton classes with extreme mass",
+    "geographic_patterns:Extreme hemisphere bias in finds"
+  ],
+  "new_anomalies": [],
+  "resolved_anomalies": []
+}

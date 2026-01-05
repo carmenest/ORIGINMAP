@@ -1,0 +1,19 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "b1716da4a78a",
+  "timestamp_utc": "2026-01-05T00:12:28.944823",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "falls_analysis": {
+      "json": "/home/carmenia/originmap/reports/O-D10_falls_results.json",
+      "hypothesis_csv": "/home/carmenia/originmap/reports/O-D10_hypothesis_summary.csv",
+      "enrichment_csv": "/home/carmenia/originmap/reports/O-D10_class_enrichment.csv",
+      "plot": "/home/carmenia/originmap/reports/O-D10_falls_analysis.png",
+      "observation": "/home/carmenia/originmap/notes/observations/observation_O-D10_20260105.md"
+    }
+  },
+  "parameters": {
+    "experiment": "O-D10"
+  }
+}

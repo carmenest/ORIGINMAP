@@ -1,0 +1,17 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "7b44884a0a34",
+  "timestamp_utc": "2026-01-04T20:07:10.791313",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "meteorites": {
+      "file": "/home/carmenia/originmap/data/raw/meteorites_mbdb.csv",
+      "sha256": "a7788f55378ed381418ec802adf0f8e7e5d3be3e5d97db841f71a018fd6a3226",
+      "source_url": "https://raw.githubusercontent.com/pylablanche/Kaggle_Meteorites/master/meteorite-landings.csv"
+    }
+  },
+  "parameters": {
+    "step": "download"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "b6024f2e376f",
+  "timestamp_utc": "2026-01-04T22:59:06.393927",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "battery_report": {
+      "json": "/home/carmenia/originmap/reports/battery_20260104_235905_summary.json",
+      "csv": "/home/carmenia/originmap/reports/battery_20260104_235905_results.csv",
+      "survival": "/home/carmenia/originmap/reports/battery_20260104_235905_survival.csv",
+      "plot": "/home/carmenia/originmap/reports/battery_20260104_235905_plot.png",
+      "report": "/home/carmenia/originmap/reports/battery_20260104_235905_report.md"
+    }
+  },
+  "parameters": {
+    "null_spec": "1-5",
+    "bins": [
+      8,
+      10,
+      12,
+      20
+    ],
+    "stats": [
+      "cv",
+      "varlog",
+      "mad_ratio"
+    ],
+    "n_permutations": 100,
+    "n_bootstrap": 50,
+    "seed": 42
+  }
+}

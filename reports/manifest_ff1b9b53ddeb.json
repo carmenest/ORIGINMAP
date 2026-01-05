@@ -1,0 +1,11 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "ff1b9b53ddeb",
+  "timestamp_utc": "2026-01-04T20:15:00.673238",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {},
+  "parameters": {
+    "step": "bootstrap"
+  }
+}

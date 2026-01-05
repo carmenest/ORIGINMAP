@@ -1,0 +1,58 @@
+{
+  "experiment": "O-D6",
+  "hypothesis": "H-FRAG-2: Interior maximum at Grade 5",
+  "timestamp_utc": "2026-01-04T23:26:27.233780+00:00",
+  "parameters": {
+    "n_permutations": 1000,
+    "n_bootstrap": 500,
+    "seed": 42
+  },
+  "global_results": {
+    "varlog": {
+      "has_interior_max": false,
+      "p_value": 1.0,
+      "bootstrap_stable": false,
+      "delta_5_4": -0.34813626351235083,
+      "delta_5_6": 0.17136335410205383
+    },
+    "mad": {
+      "has_interior_max": false,
+      "p_value": 1.0,
+      "bootstrap_stable": false,
+      "delta_5_4": -0.0354104543547053,
+      "delta_5_6": 0.02469022071402821
+    }
+  },
+  "by_type_results": {
+    "L": {
+      "varlog": {
+        "has_interior_max": true,
+        "p_value": 0.052
+      },
+      "mad": {
+        "has_interior_max": true,
+        "p_value": 0.008
+      }
+    },
+    "H": {
+      "varlog": {
+        "has_interior_max": false,
+        "p_value": 1.0
+      },
+      "mad": {
+        "has_interior_max": false,
+        "p_value": 1.0
+      }
+    },
+    "LL": {
+      "varlog": {
+        "has_interior_max": false,
+        "p_value": 1.0
+      },
+      "mad": {
+        "has_interior_max": true,
+        "p_value": 0.0
+      }
+    }
+  }
+}

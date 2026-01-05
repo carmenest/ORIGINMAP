@@ -1,0 +1,27 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "c65999236603",
+  "timestamp_utc": "2026-01-04T20:08:15.045108",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "processed_dataset": {
+      "rows": 45716,
+      "columns": [
+        "name",
+        "id",
+        "nametype",
+        "recclass",
+        "mass",
+        "fall",
+        "year",
+        "reclat",
+        "reclong"
+      ],
+      "output_file": "/home/carmenia/originmap/data/processed/meteorites.parquet"
+    }
+  },
+  "parameters": {
+    "step": "ingest"
+  }
+}

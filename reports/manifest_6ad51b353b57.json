@@ -1,0 +1,34 @@
+{
+  "project": "ORIGINMAP",
+  "run_id": "6ad51b353b57",
+  "timestamp_utc": "2026-01-04T21:06:03.745607",
+  "python_version": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "inputs": {
+    "hypothesis_test": {
+      "csv": "/home/carmenia/originmap/reports/hypothesis_battery_results.csv",
+      "survival_table": "/home/carmenia/originmap/reports/hypothesis_survival_table.csv",
+      "summary": "/home/carmenia/originmap/reports/hypothesis_battery_summary.json",
+      "plot": "/home/carmenia/originmap/reports/hypothesis_battery_plot.png",
+      "robust_count": 1,
+      "robust_candidates": [
+        {
+          "recclass": "L6",
+          "count": 8279,
+          "cv_obs": 9.658689718314244,
+          "z_null2": -3.210503148782055,
+          "z_null3": -3.210503148782055,
+          "z_null4": -3.039652048404244,
+          "q_null2": 0.0,
+          "q_null3": 0.0,
+          "q_null4": 0.0
+        }
+      ]
+    }
+  },
+  "parameters": {
+    "experiment": "battery",
+    "n_permutations": 500,
+    "seed": 42
+  }
+}
