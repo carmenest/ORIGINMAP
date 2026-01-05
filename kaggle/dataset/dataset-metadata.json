@@ -1,6 +1,8 @@
 {
   "title": "Meteorites Catalog with Observation Metadata",
   "id": "caresment/meteorites-catalog-with-observation-metadata",
+  "subtitle": "NASA meteorites with features exposing observational biases",
+  "description": "A curated version of the NASA Meteorite Landings dataset, enhanced with features that expose observational biases. Designed for methodological analysis demonstrating how scientific catalogs accumulate biases that can generate statistically convincing but physically spurious patterns. Includes: log-transformed mass, petrologic type/grade extraction, era classification (pre-1970/antarctica-era/modern), Antarctica flag, and collection method (Fall/Find). Related: GitHub repo ORIGINMAP, Kaggle notebook 'When Big Data Lies'.",
   "licenses": [
     {
       "name": "CC-BY-4.0"
