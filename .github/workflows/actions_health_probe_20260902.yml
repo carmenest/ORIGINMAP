@@ -1,0 +1,24 @@
+name: Carmenest organization Actions health probe
+
+on:
+  push:
+    branches:
+      - diagnostics/actions-health-probe-20260902
+    paths:
+      - ".github/workflows/actions_health_probe_20260902.yml"
+      - "ACTIONS_HEALTH_PROBE_20260902.txt"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Confirm a hosted job can start
+        run: |
+          set -euo pipefail
+          echo "actions_healthy=true"
+          echo "repository=${GITHUB_REPOSITORY}"
+          echo "ref=${GITHUB_REF_NAME}"
